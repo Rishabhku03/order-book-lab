@@ -1,0 +1,383 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Verification · Order Book Lab</title><link rel="stylesheet" href="style.css"><header><a class="brand" href="index.html">ORDER BOOK LAB</a><nav><a href="index.html">Replay</a><a href="benchmarks.html">Benchmarks</a></nav></header><main><section class="intro"><p class="eyebrow">LOCAL VERIFICATION EVIDENCE</p><h1>Check the results.</h1><p>Visual checks cover layout, playback, uploads and downloads. Engine correctness, fuzzing and coverage are supported by the reports below.</p></section><section class="panel"><h2>Independent correctness</h2><p>630,000 event states compared across three implementations; 100 seeds.</p><p><a href="verification/independent-correctness.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;source_sha256&quot;: &quot;a954a7a60381c3cf14f663556e90564dbf2aa99e9c87e985f6466a370a58d366&quot;,
+  &quot;binary_sha256&quot;: &quot;b8a04d967c66ffe25f4cdb20a9a688bce67b2d2748e5dbbc6df8d82e7d80cba8&quot;,
+  &quot;preset&quot;: &quot;release&quot;,
+  &quot;complete&quot;: true,
+  &quot;seeds&quot;: 100,
+  &quot;measured_events_per_seed&quot;: 2000,
+  &quot;setup_events_per_seed&quot;: 100,
+  &quot;variants&quot;: [
+    &quot;tree&quot;,
+    &quot;hash&quot;,
+    &quot;hash_reserved&quot;
+  ],
+  &quot;comparisons_including_setup&quot;: 630000,
+  &quot;measured_comparisons_per_variant&quot;: 200000,
+  &quot;tolerance&quot;: {
+    &quot;relative&quot;: 1e-12,
+    &quot;absolute&quot;: 1e-10
+  }
+}</pre></details></section><section class="panel"><h2>Coverage</h2><p>97.20% of core/parser lines and 91.63% of branches covered.</p><p><a href="verification/coverage.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;lines&quot;: 321,
+  &quot;covered_lines&quot;: 312,
+  &quot;line_percent&quot;: 97.19626168224299,
+  &quot;branches&quot;: 239,
+  &quot;covered_branches&quot;: 219,
+  &quot;branch_percent&quot;: 91.63179916317992,
+  &quot;scope&quot;: [
+    &quot;book.hpp (including analytics)&quot;,
+    &quot;parser.hpp&quot;,
+    &quot;types.hpp&quot;
+  ],
+  &quot;files&quot;: [
+    {
+      &quot;file&quot;: &quot;book.hpp&quot;,
+      &quot;summary&quot;: {
+        &quot;lines&quot;: {
+          &quot;count&quot;: 222,
+          &quot;covered&quot;: 221,
+          &quot;percent&quot;: 99.54954954954955
+        },
+        &quot;functions&quot;: {
+          &quot;count&quot;: 16,
+          &quot;covered&quot;: 16,
+          &quot;percent&quot;: 100
+        },
+        &quot;instantiations&quot;: {
+          &quot;count&quot;: 40,
+          &quot;covered&quot;: 40,
+          &quot;percent&quot;: 100
+        },
+        &quot;regions&quot;: {
+          &quot;count&quot;: 214,
+          &quot;covered&quot;: 213,
+          &quot;notcovered&quot;: 1,
+          &quot;percent&quot;: 99.53271028037383
+        },
+        &quot;branches&quot;: {
+          &quot;count&quot;: 172,
+          &quot;covered&quot;: 158,
+          &quot;notcovered&quot;: 14,
+          &quot;percent&quot;: 91.86046511627907
+        },
+        &quot;mcdc&quot;: {
+          &quot;count&quot;: 0,
+          &quot;covered&quot;: 0,
+          &quot;notcovered&quot;: 0,
+          &quot;percent&quot;: 0
+        }
+      }
+    },
+    {
+      &quot;file&quot;: &quot;parser.hpp&quot;,
+      &quot;summary&quot;: {
+        &quot;lines&quot;: {
+          &quot;count&quot;: 90,
+          &quot;covered&quot;: 87,
+          &quot;percent&quot;: 96.66666666666667
+        },
+        &quot;functions&quot;: {
+          &quot;count&quot;: 4,
+          &quot;covered&quot;: 4,
+          &quot;percent&quot;: 100
+        },
+        &quot;instantiations&quot;: {
+          &quot;count&quot;: 8,
+          &quot;covered&quot;: 8,
+          &quot;percent&quot;: 100
+        },
+        &quot;regions&quot;: {
+          &quot;count&quot;: 96,
+          &quot;covered&quot;: 93,
+          &quot;notcovered&quot;: 3,
+          &quot;percent&quot;: 96.875
+        },
+        &quot;branches&quot;: {
+          &quot;count&quot;: 67,
+          &quot;covered&quot;: 61,
+          &quot;notcovered&quot;: 6,
+          &quot;percent&quot;: 91.04477611940298
+        },
+        &quot;mcdc&quot;: {
+          &quot;count&quot;: 0,
+          &quot;covered&quot;: 0,
+          &quot;notcovered&quot;: 0,
+          &quot;percent&quot;: 0
+        }
+      }
+    },
+    {
+      &quot;file&quot;: &quot;types.hpp&quot;,
+      &quot;summary&quot;: {
+        &quot;lines&quot;: {
+          &quot;count&quot;: 9,
+          &quot;covered&quot;: 4,
+          &quot;percent&quot;: 44.44444444444444
+        },
+        &quot;functions&quot;: {
+          &quot;count&quot;: 5,
+          &quot;covered&quot;: 4,
+          &quot;percent&quot;: 80
+        },
+        &quot;instantiations&quot;: {
+          &quot;count&quot;: 5,
+          &quot;covered&quot;: 4,
+          &quot;percent&quot;: 80
+        },
+        &quot;regions&quot;: {
+          &quot;count&quot;: 5,
+          &quot;covered&quot;: 4,
+          &quot;notcovered&quot;: 1,
+          &quot;percent&quot;: 80
+        },
+        &quot;branches&quot;: {
+          &quot;count&quot;: 0,
+          &quot;covered&quot;: 0,
+          &quot;notcovered&quot;: 0,
+          &quot;percent&quot;: 0
+        },
+        &quot;mcdc&quot;: {
+          &quot;count&quot;: 0,
+          &quot;covered&quot;: 0,
+          &quot;notcovered&quot;: 0,
+          &quot;percent&quot;: 0
+        }
+      }
+    }
+  ]
+}</pre></details></section><section class="panel"><h2>Parser and state fuzzing</h2><p>parser: 900 seconds, exit 0; state: 900 seconds, exit 0</p><p><a href="verification/parser-and-state-fuzzing.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;complete&quot;: true,
+  &quot;runs&quot;: [
+    {
+      &quot;target&quot;: &quot;parser&quot;,
+      &quot;exit_code&quot;: 0,
+      &quot;elapsed_seconds&quot;: 904.1790456000017,
+      &quot;budget_seconds&quot;: 900,
+      &quot;executions&quot;: 75809302
+    },
+    {
+      &quot;target&quot;: &quot;state&quot;,
+      &quot;exit_code&quot;: 0,
+      &quot;elapsed_seconds&quot;: 901.8233738999697,
+      &quot;budget_seconds&quot;: 900,
+      &quot;executions&quot;: 312431
+    }
+  ],
+  &quot;source_sha256&quot;: &quot;a954a7a60381c3cf14f663556e90564dbf2aa99e9c87e985f6466a370a58d366&quot;,
+  &quot;fingerprint&quot;: {
+    &quot;target_source_sha256&quot;: &quot;fb2bbba7d9427652fe10dae5d7518bf594155c2f05ca052471a74dfd3e9ab0a9&quot;,
+    &quot;binary_sha256&quot;: {
+      &quot;parser&quot;: &quot;0fc0b5908a9f85f4a7ed97b76d766ba6d20eb41e17a247240f1e97088e7f0d51&quot;,
+      &quot;state&quot;: &quot;c188b3be1016c01460d91142833831901b5119a1a6568eafd531ae2d4366dd79&quot;
+    }
+  },
+  &quot;binary_sha256&quot;: {
+    &quot;parser&quot;: &quot;0fc0b5908a9f85f4a7ed97b76d766ba6d20eb41e17a247240f1e97088e7f0d51&quot;,
+    &quot;state&quot;: &quot;c188b3be1016c01460d91142833831901b5119a1a6568eafd531ae2d4366dd79&quot;
+  }
+}</pre></details></section><section class="panel"><h2>Clean source reproduction</h2><p>9 demo artifacts reproduced after a fresh build.</p><p><a href="verification/clean-source-reproduction.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;complete&quot;: true,
+  &quot;method&quot;: &quot;fresh source copy without build cache or Git metadata&quot;,
+  &quot;checks&quot;: [
+    &quot;native release build&quot;,
+    &quot;C++ tests&quot;,
+    &quot;Python integration tests&quot;,
+    &quot;demo regeneration&quot;
+  ],
+  &quot;identical_files_or_json_values&quot;: [
+    &quot;balanced.csv&quot;,
+    &quot;balanced.manifest.json&quot;,
+    &quot;balanced.json&quot;,
+    &quot;cancellation.csv&quot;,
+    &quot;cancellation.manifest.json&quot;,
+    &quot;cancellation.json&quot;,
+    &quot;lifecycle.csv&quot;,
+    &quot;lifecycle.manifest.json&quot;,
+    &quot;lifecycle.json&quot;
+  ],
+  &quot;elapsed_seconds&quot;: 56.70399960002396
+}</pre></details></section><section class="panel"><h2>Desktop and mobile visual checks</h2><p>22 captured views; white backgrounds and black text/charts; no page errors.</p><p><a href="verification/desktop-and-mobile-visual-checks.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;complete&quot;: true,
+  &quot;browser&quot;: &quot;Chromium&quot;,
+  &quot;checked_viewports&quot;: [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  &quot;palette&quot;: &quot;black and white; series distinguished by line pattern&quot;,
+  &quot;computed_colors&quot;: {
+    &quot;desktop-initial&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;desktop-populated&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;mobile-populated&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;desktop-cancellation&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;event-add&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;event-execute&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;event-replace&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;lifecycle-crossed&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;lifecycle-locked&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;event-cancel&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;event-delete&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;lifecycle-empty&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;upload-error&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;desktop-benchmarks&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;benchmark-latency-chart&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;benchmark-memory-chart&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;benchmark-latency-table&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;benchmark-overhead&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;mobile-benchmarks&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;mobile-evidence-expanded&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;mobile-verification&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ],
+    &quot;desktop-verification&quot;: [
+      &quot;rgb(0, 0, 0)&quot;,
+      &quot;rgb(255, 255, 255)&quot;,
+      &quot;rgba(0, 0, 0, 0)&quot;
+    ]
+  },
+  &quot;checks&quot;: [
+    &quot;Top-ten book, solid bid/dashed ask depth and history charts&quot;,
+    &quot;Cancellation-heavy scenario loads and renders saved C++ output&quot;,
+    &quot;All five event types and all five book statuses, including exact large IDs&quot;,
+    &quot;Keyboard play/pause, all playback rates, reset, previous/next and seeking&quot;,
+    &quot;Scenario CSV, manifest and C++ trace downloads have matching checksums&quot;,
+    &quot;Valid uploads and malformed/10,001-frame rejection&quot;,
+    &quot;Benchmark charts, comparison tables and downloadable measurement evidence&quot;,
+    &quot;Visible verification evidence for engine, fuzzing, coverage and reproduction&quot;
+  ],
+  &quot;page_errors&quot;: [],
+  &quot;screenshots&quot;: [
+    &quot;desktop-initial.png&quot;,
+    &quot;desktop-populated.png&quot;,
+    &quot;mobile-populated.png&quot;,
+    &quot;desktop-cancellation.png&quot;,
+    &quot;event-add.png&quot;,
+    &quot;event-execute.png&quot;,
+    &quot;event-replace.png&quot;,
+    &quot;lifecycle-crossed.png&quot;,
+    &quot;lifecycle-locked.png&quot;,
+    &quot;event-cancel.png&quot;,
+    &quot;event-delete.png&quot;,
+    &quot;lifecycle-empty.png&quot;,
+    &quot;upload-error.png&quot;,
+    &quot;desktop-benchmarks.png&quot;,
+    &quot;benchmark-latency-chart.png&quot;,
+    &quot;benchmark-memory-chart.png&quot;,
+    &quot;benchmark-latency-table.png&quot;,
+    &quot;benchmark-overhead.png&quot;,
+    &quot;mobile-benchmarks.png&quot;,
+    &quot;mobile-evidence-expanded.png&quot;,
+    &quot;mobile-verification.png&quot;,
+    &quot;desktop-verification.png&quot;
+  ]
+}</pre></details></section><section class="panel"><h2>Local release checks</h2><p>9 local check groups passed. Full performance measurement is recorded separately.</p><p><a href="verification/local-release-checks.json" download>Download evidence</a></p><details><summary>View the recorded checks</summary><pre class="mono">{
+  &quot;complete&quot;: true,
+  &quot;local_checks&quot;: [
+    &quot;release core/integration and 100-seed differential tests&quot;,
+    &quot;debug build and tests&quot;,
+    &quot;sanitize build and tests&quot;,
+    &quot;coverage thresholds&quot;,
+    &quot;900-second parser/state fuzz sessions&quot;,
+    &quot;regenerated demo and export schemas&quot;,
+    &quot;desktop/mobile browser and visual checks&quot;,
+    &quot;fresh source reproduction&quot;,
+    &quot;formatting and compiler warnings&quot;
+  ],
+  &quot;fuzz_seconds_per_target&quot;: 900,
+  &quot;elapsed_seconds&quot;: 1272.8603317000088,
+  &quot;elapsed_scope&quot;: &quot;this invocation&quot;,
+  &quot;reused_fuzz_evidence&quot;: false,
+  &quot;external_checks_pending&quot;: [
+    &quot;Linux GitHub Actions execution&quot;,
+    &quot;GitHub Pages deployment&quot;,
+    &quot;Git release commit&quot;
+  ],
+  &quot;scope&quot;: &quot;Local verification; full performance matrix is a separate benchmark command.&quot;
+}</pre></details></section><section class="about"><h2>Release status</h2><p>A release commit, Linux CI execution and GitHub Pages deployment are pending. Local verification identifies the tested source and binaries using checksums.</p></section></main></html>

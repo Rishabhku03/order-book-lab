@@ -1,0 +1,4493 @@
+[
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "64c34a2bb0b3807dec90d71f1451f187a7addc0536c764a80a3253ea206372e6"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "65c7bd56bd4996214197a81d40aee177149ba9fe3834b50294f367a0ce936d06"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "cf0472a0d2468202c46edda6a2c52d7211e18b945f39218536751ad0fa20ec34"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "4bcb334a60b914972642d458747933fbe190ffa399c4a190688d571290fb1969"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "7878f20773bcb20f7be6a67d2ff333dadd6d46bb9ce39d4bd70e5a652260908b",
+    "input_sha256": "2e0aae090e95b9c01619368d56b99ed8308dc400b0c60027bcb1d3f07d9cbaf3",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.29846153846153844,
+        "imbalance5": -0.07054293260216528,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100002.42801126615,
+        "weighted_midpoint": 100000.29846153848
+      },
+      "asks": [
+        {
+          "orders": "7",
+          "price_ticks": "100001",
+          "quantity": "2736"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100002",
+          "quantity": "7132"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100003",
+          "quantity": "3983"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100004",
+          "quantity": "5501"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100005",
+          "quantity": "7198"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100006",
+          "quantity": "2931"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100007",
+          "quantity": "5023"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100008",
+          "quantity": "5384"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100009",
+          "quantity": "2255"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100010",
+          "quantity": "4574"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "13",
+          "price_ticks": "99999",
+          "quantity": "5064"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99998",
+          "quantity": "5335"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99997",
+          "quantity": "3694"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99996",
+          "quantity": "4758"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99995",
+          "quantity": "4200"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99994",
+          "quantity": "7294"
+        },
+        {
+          "orders": "21",
+          "price_ticks": "99993",
+          "quantity": "6273"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99992",
+          "quantity": "6527"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "99991",
+          "quantity": "3932"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99990",
+          "quantity": "5198"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50004",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          401563,
+          231244,
+          139007,
+          185408,
+          92778
+        ],
+        "execution_notional": "5786395890933",
+        "execution_volume": "57862554",
+        "peak_live_orders": "50054",
+        "sequence": "1050000",
+        "timestamp_ns": "5243767286",
+        "total_quantity": "20361193"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "f30a89a97069a11b1275995f3ae73b753613d62a7ea51c2f830166ed4fb0bc38"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "4618e7fea13e541932a2054ba72be161f4f93978b06f27d652e7a615611bf484"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "e35b9f6b636bb308c86b5a272f0ef20238f3675cdab36ca7e8685fc890955c9a"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "e4683939337d6a75070d40a06dc7a3fe925c0a537c99670a67b0a30ab82abbec"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "88065e9d7e64b968708a7586b3192434d82750afd836eb21f79dbe2ec677227f",
+    "input_sha256": "c39e304080e419d092761eb5846e1e925f36723bf4b85c5a1cbd82bd932555bf",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.045714285714285714,
+        "imbalance5": -0.12263005510413748,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100001.10119363925,
+        "weighted_midpoint": 99999.95428571428
+      },
+      "asks": [
+        {
+          "orders": "17",
+          "price_ticks": "100001",
+          "quantity": "5856"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100002",
+          "quantity": "3712"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100003",
+          "quantity": "6003"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100004",
+          "quantity": "7223"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "100005",
+          "quantity": "7256"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100006",
+          "quantity": "6811"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100007",
+          "quantity": "3920"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "100008",
+          "quantity": "5106"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100009",
+          "quantity": "5363"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "100010",
+          "quantity": "5566"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "11",
+          "price_ticks": "99999",
+          "quantity": "5344"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99998",
+          "quantity": "6633"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99997",
+          "quantity": "4113"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "99996",
+          "quantity": "5402"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99995",
+          "quantity": "1993"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99994",
+          "quantity": "2374"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99993",
+          "quantity": "7201"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99992",
+          "quantity": "5576"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99991",
+          "quantity": "3074"
+        },
+        {
+          "orders": "20",
+          "price_ticks": "99990",
+          "quantity": "7106"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50004",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          401445,
+          231620,
+          139003,
+          185642,
+          92290
+        ],
+        "execution_notional": "5785421407991",
+        "execution_volume": "57853577",
+        "peak_live_orders": "50045",
+        "sequence": "1050000",
+        "timestamp_ns": "5257103917",
+        "total_quantity": "20397059"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "87dbf598687c1ecf2cf74ce5388e8109e224c94b4237fd0ba77e8f8cab23eb2b"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "00882bb22f0ae0f888baebb0a9e2bcc1bba3a241f1b80147f10ac44e969b14e0"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "55bdb56ef7620665ea61e6d45a2792d6b7cbd6b420d574dc91f890c4473e9254"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "9d77b4847a4615ed6dc06a33d9a0bb72f9980c0000be34285159a215eaab2227"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "a458446aa08752f19faf2d4195dfd732066ef97ccb0115a5d957648f3e9d28c3",
+    "input_sha256": "89706abb5e00bf1c1b689d9927add63df804f1a908417262ac17b86b9cef0f74",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.09637488947833775,
+        "imbalance5": -0.05078028238791182,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.85339166211,
+        "weighted_midpoint": 99999.90362511053
+      },
+      "asks": [
+        {
+          "orders": "10",
+          "price_ticks": "100001",
+          "quantity": "4340"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100002",
+          "quantity": "7092"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100003",
+          "quantity": "6503"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100004",
+          "quantity": "5102"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100005",
+          "quantity": "4536"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100006",
+          "quantity": "3057"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100007",
+          "quantity": "4767"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "100008",
+          "quantity": "7917"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100009",
+          "quantity": "5215"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100010",
+          "quantity": "6531"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "10",
+          "price_ticks": "99999",
+          "quantity": "3577"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99998",
+          "quantity": "4239"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99997",
+          "quantity": "3920"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99996",
+          "quantity": "7862"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99995",
+          "quantity": "5310"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "99994",
+          "quantity": "7174"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99993",
+          "quantity": "4691"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99992",
+          "quantity": "5249"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99991",
+          "quantity": "3639"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99990",
+          "quantity": "3318"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50008",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          401297,
+          231595,
+          138733,
+          186111,
+          92264
+        ],
+        "execution_notional": "5819612263662",
+        "execution_volume": "58195626",
+        "peak_live_orders": "50040",
+        "sequence": "1050000",
+        "timestamp_ns": "5248464526",
+        "total_quantity": "20392743"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "a894eef578b0da406cec412073c43e3999f8d10d238586b7dac773a702d54854"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "46d81e2827daacfd8fcb5ef8f7c611bc6621be7f8f51407f53c18192d2dbb32e"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "984a882a237e5a4af7801e99856ddf26ea65742a0dc3e774274eaa17b3c88638"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "c79f8a5db1d5e09515c9b696a1d6eec1de2f29fcebaee64d35dae1141ed2b603"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "db8bc2f36feed8555a524d80ec7a176a931fc388a89672ce2d182093a46abf47",
+    "input_sha256": "ae9b40576e3fb6a6a5d328b165efedadc5df7a8e906acb5b5d162d00c9b3736b",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.28012048192771083,
+        "imbalance5": -0.05001752950800514,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100001.03419523616,
+        "weighted_midpoint": 99999.71987951806
+      },
+      "asks": [
+        {
+          "orders": "6",
+          "price_ticks": "100001",
+          "quantity": "2550"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100002",
+          "quantity": "2197"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100003",
+          "quantity": "77"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100004",
+          "quantity": "2751"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "1410"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "100006",
+          "quantity": "4325"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100007",
+          "quantity": "1056"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100008",
+          "quantity": "5367"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100009",
+          "quantity": "1240"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100010",
+          "quantity": "1746"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "3",
+          "price_ticks": "99999",
+          "quantity": "1434"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99998",
+          "quantity": "1941"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99997",
+          "quantity": "1353"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99996",
+          "quantity": "339"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99994",
+          "quantity": "3062"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99993",
+          "quantity": "554"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99992",
+          "quantity": "855"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99991",
+          "quantity": "1731"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99990",
+          "quantity": "1111"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99989",
+          "quantity": "152"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5001",
+        "ask_levels": "495",
+        "bid_levels": "498",
+        "event_counts": [
+          356880,
+          231265,
+          139017,
+          185279,
+          92559
+        ],
+        "execution_notional": "5691992065702",
+        "execution_volume": "56919332",
+        "peak_live_orders": "5053",
+        "sequence": "1005000",
+        "timestamp_ns": "5019453592",
+        "total_quantity": "2022297"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "8df9c4e2b0a4b08395eb99aee61f9842cf980d0ec7408e3f3738b70c457fe164"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "9d3df4d1bd40ba4812c0cd4a8c5b544a0b46407f5faa2e9557d48bc76e37a661"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "0603c480fbd30f2d6ba0e851481cea3c0b0c5be8e2823432a92c352e0c89f5a0"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "1e19d19108262fcb599f4be1dd7b49b2b2d796f17cb61cb17452efa54014d9ee"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "6a58b465cb15012e40eb6373ea5d055eb1e2de3add2578a088c45cfa94f10f5b",
+    "input_sha256": "4c4f4e2f9fea0cf1afc23965174842c6268faf6d30c4ac261ada5819eba84502",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.8085642317380353,
+        "imbalance5": 0.075,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.47029292522,
+        "weighted_midpoint": 100000.80856423175
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "266"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100002",
+          "quantity": "3608"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100003",
+          "quantity": "1008"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100004",
+          "quantity": "1428"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100005",
+          "quantity": "1793"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100006",
+          "quantity": "1695"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100007",
+          "quantity": "1827"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100008",
+          "quantity": "1459"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100009",
+          "quantity": "35"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "1804"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "7",
+          "price_ticks": "99999",
+          "quantity": "2513"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1527"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99997",
+          "quantity": "1748"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99996",
+          "quantity": "1071"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99995",
+          "quantity": "2558"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99994",
+          "quantity": "1612"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99993",
+          "quantity": "1932"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99992",
+          "quantity": "804"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99991",
+          "quantity": "1680"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99990",
+          "quantity": "1454"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5002",
+        "ask_levels": "497",
+        "bid_levels": "497",
+        "event_counts": [
+          356749,
+          231527,
+          138976,
+          185653,
+          92095
+        ],
+        "execution_notional": "5694360580049",
+        "execution_volume": "56943338",
+        "peak_live_orders": "5047",
+        "sequence": "1005000",
+        "timestamp_ns": "5031977469",
+        "total_quantity": "1991020"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "e93473415f4c1ae9130b7c8c4b4ee9ba6d4793de9c492e01a906da3f568d49c3"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "df28281fb2d217027f0a7e9c7f6574e8d84837ed66dd7aa0b78de8e5bf1c51dc"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "2b42ef86992dca53df126617f3f47262be1e3526e795ba36cf595639a2d8dbcf"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "dc25bea58a884f7c61ba179511e484e674ba56ef18b8d991cd53c62ffd32b306"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "cd78a71aaff3a0d8cd60e3565cf5ca320a275261f18793284dab71b445a5d333",
+    "input_sha256": "75d20b90be40cf09fffff912bc53d8b5b18514bc2ee77d8fce77dc742c4fe660",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.023679417122040074,
+        "imbalance5": 0.2253687682828157,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.86417965041,
+        "weighted_midpoint": 99999.97632058288
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "843"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100002",
+          "quantity": "1228"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100003",
+          "quantity": "1026"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100004",
+          "quantity": "1017"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100005",
+          "quantity": "2109"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100006",
+          "quantity": "2406"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100007",
+          "quantity": "1240"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100008",
+          "quantity": "366"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100009",
+          "quantity": "2926"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100010",
+          "quantity": "2565"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "804"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1130"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99997",
+          "quantity": "1632"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99996",
+          "quantity": "3546"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99995",
+          "quantity": "2732"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99994",
+          "quantity": "1866"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99993",
+          "quantity": "1530"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99992",
+          "quantity": "452"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99991",
+          "quantity": "2005"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99990",
+          "quantity": "1072"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5003",
+        "ask_levels": "497",
+        "bid_levels": "491",
+        "event_counts": [
+          356617,
+          231410,
+          138960,
+          185654,
+          92359
+        ],
+        "execution_notional": "5699920158338",
+        "execution_volume": "56999279",
+        "peak_live_orders": "5041",
+        "sequence": "1005000",
+        "timestamp_ns": "5024958120",
+        "total_quantity": "2007739"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "65c7d7d9298b37ee12accf0895fd39f7411e9f93b03761b861419f9b3721e3e8"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "27c0ccb8baee26fbd54ed2856860f2041300377842ad866b6c2901d948139da0"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "d3a2ddfd0abec89f68ce3a35746a01bfd40c32d83692ed5055008c9feab8333d"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "0e10f4c021236c2fc1f1315faa39ea81d693c129c5fa42fe526bc0826071113c"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "f2e4ccf3e41afc2e3198062c739f126d0e8c7efa0d716c695461ef0bd463aa3a",
+    "input_sha256": "91cbdbed5ead239206fc67fbfb19d0b011c6c570d83d86598b5b485eb3b8560b",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.14074074074074075,
+        "imbalance5": -0.033450252374026865,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.02398955233,
+        "weighted_midpoint": 100000.14074074075
+      },
+      "asks": [
+        {
+          "orders": "5",
+          "price_ticks": "100001",
+          "quantity": "1508"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100002",
+          "quantity": "3"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100003",
+          "quantity": "30"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100004",
+          "quantity": "1919"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100006",
+          "quantity": "2580"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100007",
+          "quantity": "2684"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100008",
+          "quantity": "1663"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100009",
+          "quantity": "1977"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100010",
+          "quantity": "42"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100011",
+          "quantity": "317"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "3",
+          "price_ticks": "99999",
+          "quantity": "2002"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "598"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99997",
+          "quantity": "1153"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99996",
+          "quantity": "1000"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99995",
+          "quantity": "896"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99994",
+          "quantity": "2620"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99993",
+          "quantity": "1451"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99992",
+          "quantity": "908"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "1801"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99990",
+          "quantity": "765"
+        }
+      ],
+      "statistics": {
+        "active_orders": "504",
+        "ask_levels": "87",
+        "bid_levels": "90",
+        "event_counts": [
+          352208,
+          231314,
+          139008,
+          185300,
+          92670
+        ],
+        "execution_notional": "5685939064031",
+        "execution_volume": "56859377",
+        "peak_live_orders": "551",
+        "sequence": "1000500",
+        "timestamp_ns": "4995313277",
+        "total_quantity": "195996"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "4d6aa443193af257a5d56b08d2b1c93692b65c73b34f995751407528cc891610"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "141296d31912e62a54b29f435b13bbaf3f3903cc9c29f0717e4767c9c2f56fec"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "3f298748323c7086a0c6e0e583b440249f049c76aae70a4e27922f4d5894c23d"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "5c58c58a56a18ca584a7952640468026b4205e07db3dbc35ff45425fe1e31386"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "99f4a1d152d4b35573b066c0ca917ae5d6ace3c3efff67a9447913744dd888a2",
+    "input_sha256": "d5be0b3f28baed2d795d98b7088ef080dc947dc3e591ed1f364691f270389ca4",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.18594104308390022,
+        "imbalance5": -0.12299964957364794,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.78971214987,
+        "weighted_midpoint": 100000.18594104308
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "718"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100002",
+          "quantity": "903"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100003",
+          "quantity": "679"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "298"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "2209"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100006",
+          "quantity": "30"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100007",
+          "quantity": "941"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100008",
+          "quantity": "463"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100009",
+          "quantity": "100"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100010",
+          "quantity": "1287"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "3",
+          "price_ticks": "99999",
+          "quantity": "1046"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99998",
+          "quantity": "54"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99997",
+          "quantity": "42"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99996",
+          "quantity": "1356"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99995",
+          "quantity": "1256"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99993",
+          "quantity": "2052"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99991",
+          "quantity": "616"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99990",
+          "quantity": "407"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99989",
+          "quantity": "1004"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99988",
+          "quantity": "889"
+        }
+      ],
+      "statistics": {
+        "active_orders": "507",
+        "ask_levels": "97",
+        "bid_levels": "95",
+        "event_counts": [
+          352236,
+          231462,
+          139070,
+          185549,
+          92183
+        ],
+        "execution_notional": "5674864666424",
+        "execution_volume": "56748766",
+        "peak_live_orders": "547",
+        "sequence": "1000500",
+        "timestamp_ns": "5009045584",
+        "total_quantity": "196367"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "954bfde5d85f2202839ef264505f5692d7c23899e71eabfea10740500aa3eebf"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "303c7fc706967d2164f70483cbd5e7cfe30226a714d3ee084ae6cfe1715efb05"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "dcfc63ae747af8854bcda312cb568bae914113171fa412c0a368dbbbce762cd5"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "73eea4572e2fd7cf2a5c2ac0aa8bd2938ae75a694a07bcbcc103054d59c5fff3"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "2d1d16683dd17add29b6a0fea6814e2c358715ae86d27ad1729f2c35a25c2611",
+    "input_sha256": "b4429ff91e94f3261333bc18a07030eff5fe8ac0a8ef39db3c70182772cc0fa2",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.11532846715328467,
+        "imbalance5": -0.32981038234379856,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.94096582523,
+        "weighted_midpoint": 100000.11532846716
+      },
+      "asks": [
+        {
+          "orders": "2",
+          "price_ticks": "100001",
+          "quantity": "303"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100002",
+          "quantity": "554"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100003",
+          "quantity": "1585"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "1334"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100005",
+          "quantity": "2641"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100006",
+          "quantity": "1413"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100007",
+          "quantity": "1427"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100008",
+          "quantity": "1941"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100009",
+          "quantity": "4883"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100010",
+          "quantity": "316"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "2",
+          "price_ticks": "99999",
+          "quantity": "382"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99998",
+          "quantity": "503"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99997",
+          "quantity": "552"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99996",
+          "quantity": "440"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99995",
+          "quantity": "1357"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "867"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99993",
+          "quantity": "2211"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99992",
+          "quantity": "235"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "1073"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99990",
+          "quantity": "789"
+        }
+      ],
+      "statistics": {
+        "active_orders": "525",
+        "ask_levels": "90",
+        "bid_levels": "90",
+        "event_counts": [
+          352006,
+          231443,
+          138997,
+          185683,
+          92371
+        ],
+        "execution_notional": "5694513438289",
+        "execution_volume": "56945168",
+        "peak_live_orders": "541",
+        "sequence": "1000500",
+        "timestamp_ns": "5001129797",
+        "total_quantity": "211047"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "f07aa1272bb28c2015e10ae371792a48b5bf24965c4b600064bb20d273ed8dab"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "22a01da14ba928bda8a8b79d35b8deeb492a96c0833d2bcafd43f572ef4a1964"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "5f3176cd07f3880ff60c3159cc40cc68444f97e6877a7ee226124bc48febb59b"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "13bdda1f91e01cf8a7faf43de6318760eca790bd7c682984fa23b5c66c1354ac"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "7d9c79014b346a5ca482b56a624587ee9086be95d640ebaa47a18b94d724b6e6",
+    "input_sha256": "633c9b32d57de9c1fb09f745a597e60c57f41789fdf6ed15e193083dcfaefa13",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.072107902472765,
+        "imbalance5": 0.008200986100443498,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99989.22622240974,
+        "weighted_midpoint": 100000.07210790247
+      },
+      "asks": [
+        {
+          "orders": "7",
+          "price_ticks": "100001",
+          "quantity": "2683"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100002",
+          "quantity": "4692"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "100003",
+          "quantity": "5053"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100004",
+          "quantity": "5418"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100005",
+          "quantity": "2169"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100006",
+          "quantity": "5360"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100007",
+          "quantity": "3191"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100008",
+          "quantity": "3155"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100009",
+          "quantity": "5407"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100010",
+          "quantity": "3522"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "8",
+          "price_ticks": "99999",
+          "quantity": "3100"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "99998",
+          "quantity": "7521"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "99997",
+          "quantity": "1776"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99996",
+          "quantity": "4920"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99995",
+          "quantity": "3029"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99994",
+          "quantity": "4932"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99993",
+          "quantity": "5968"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99992",
+          "quantity": "7933"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99991",
+          "quantity": "6534"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99990",
+          "quantity": "3318"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50002",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          430047,
+          353982,
+          177293,
+          44174,
+          44504
+        ],
+        "execution_notional": "1385466316857",
+        "execution_volume": "13856156",
+        "peak_live_orders": "50029",
+        "sequence": "1050000",
+        "timestamp_ns": "5246813890",
+        "total_quantity": "20391230"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "88bbee7e68a03bf70fc33bb2a83e55a319cdeae5c96cffa6eb0dda371801838e"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "49b46605719801688a4d32182c754664e8f74b284ec104b931e08cfc7cbc87d7"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "72ed02a4bfc43261b74c7959f301197c2642a5f5b79974e7a7f100ac15d26c1a"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "67214507090be56aacf3544e5c26ac897d65638bdd8dbc875c160e5a996f029e"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "f8452b5555549bd3fe6d856db2ad8a4649b42fcd666571d88b43396640ec6b8c",
+    "input_sha256": "c544c0d6a04b05417bd0da388222220aea5a51cb8bdd9ad9bbee2f45f0f029f2",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.04781301522645718,
+        "imbalance5": 0.11295214143057919,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100003.19617642941,
+        "weighted_midpoint": 99999.95218698477
+      },
+      "asks": [
+        {
+          "orders": "16",
+          "price_ticks": "100001",
+          "quantity": "5402"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "100002",
+          "quantity": "3092"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "100003",
+          "quantity": "6453"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100004",
+          "quantity": "2941"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100005",
+          "quantity": "6096"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100006",
+          "quantity": "2947"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100007",
+          "quantity": "9943"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "100008",
+          "quantity": "6777"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100009",
+          "quantity": "6109"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100010",
+          "quantity": "9166"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "9",
+          "price_ticks": "99999",
+          "quantity": "4909"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "99998",
+          "quantity": "7485"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99997",
+          "quantity": "3595"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99996",
+          "quantity": "7127"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "99995",
+          "quantity": "6976"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99994",
+          "quantity": "5902"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "99993",
+          "quantity": "9440"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99992",
+          "quantity": "5920"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99991",
+          "quantity": "5267"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99990",
+          "quantity": "8319"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50006",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          430399,
+          353879,
+          177481,
+          44256,
+          43985
+        ],
+        "execution_notional": "1394270161910",
+        "execution_volume": "13942256",
+        "peak_live_orders": "50032",
+        "sequence": "1050000",
+        "timestamp_ns": "5251833589",
+        "total_quantity": "20472984"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "f996fc64e452d5900015f4f0d3dfa029f5b689c036e904091d6662eb0100ed51"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "fc79e1f04787552b8e02feba10f7cc5ed91e4c67101e0638ac6b0942865e337d"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "695373c4398d2c189f3ba542a58a35a7cf8af4e461057763337c9424258d78c9"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "1e2a329843114406f2a6cb2a02b98b31ac22bd2f75aa2879bb213e09b12b8a4e"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "22a97946a8d225c466e92dfe1cb64395771dd21bacf376a786723595d5143ad0",
+    "input_sha256": "c62a53ba2e3a8292dc36ec7bf58db41847795bc1662c02d9c547cfe2bc4b3792",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.009616686983610997,
+        "imbalance5": -0.04616847378910607,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100001.16673012853,
+        "weighted_midpoint": 99999.99038331301
+      },
+      "asks": [
+        {
+          "orders": "14",
+          "price_ticks": "100001",
+          "quantity": "3727"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100002",
+          "quantity": "6890"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "100003",
+          "quantity": "4044"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100004",
+          "quantity": "6335"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100005",
+          "quantity": "7612"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100006",
+          "quantity": "2806"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100007",
+          "quantity": "4716"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100008",
+          "quantity": "4959"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100009",
+          "quantity": "2612"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100010",
+          "quantity": "3844"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "8",
+          "price_ticks": "99999",
+          "quantity": "3656"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99998",
+          "quantity": "5497"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99997",
+          "quantity": "5858"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99996",
+          "quantity": "7063"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99995",
+          "quantity": "4009"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99994",
+          "quantity": "7935"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99993",
+          "quantity": "3155"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99992",
+          "quantity": "4927"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99991",
+          "quantity": "4929"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "99990",
+          "quantity": "9561"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50002",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          430022,
+          354322,
+          177567,
+          44107,
+          43982
+        ],
+        "execution_notional": "1376433159073",
+        "execution_volume": "13764171",
+        "peak_live_orders": "50025",
+        "sequence": "1050000",
+        "timestamp_ns": "5248182312",
+        "total_quantity": "20369708"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "10989681a75af24a46e29ab3a5c39b1cb376fc9d5b7c58bca1a69f5a2898ded5"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "eb8b7dd369115187b7986c1e7441fa6048a10683daf5ff9c8ddb4b3359ca2e3d"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "b082f656b2df305ca7f10f00eeb35d68ac87c93c1ece9dd8be3a411fb215aa5b"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "4e6769bfdb26d6242f1d88e15c0f23feef3c910539e088fe335da9da62d31037"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "77b7e2acbf91f3b29ff3267cb1233a2c6965d3facac004bed1d5d7a897465eba",
+    "input_sha256": "54fe0c216f637e3d95da163164100616b942d05d5fe0f1b9080595a6f83699c9",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.10501260151218146,
+        "imbalance5": 0.030767658182561587,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.95188212107,
+        "weighted_midpoint": 99999.8949873985
+      },
+      "asks": [
+        {
+          "orders": "3",
+          "price_ticks": "100001",
+          "quantity": "1973"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100002",
+          "quantity": "2605"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100003",
+          "quantity": "3890"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100004",
+          "quantity": "34"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100005",
+          "quantity": "980"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100006",
+          "quantity": "3450"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100007",
+          "quantity": "2001"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100008",
+          "quantity": "1171"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100009",
+          "quantity": "1784"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100010",
+          "quantity": "2628"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "3",
+          "price_ticks": "99999",
+          "quantity": "1598"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1656"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99997",
+          "quantity": "2394"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99996",
+          "quantity": "2326"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99995",
+          "quantity": "2110"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99994",
+          "quantity": "1931"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99993",
+          "quantity": "2144"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99992",
+          "quantity": "2733"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "320"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99990",
+          "quantity": "1144"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5001",
+        "ask_levels": "497",
+        "bid_levels": "498",
+        "event_counts": [
+          385354,
+          353660,
+          177339,
+          44159,
+          44488
+        ],
+        "execution_notional": "1351806649539",
+        "execution_volume": "13518073",
+        "peak_live_orders": "5030",
+        "sequence": "1005000",
+        "timestamp_ns": "5022205972",
+        "total_quantity": "2035389"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "39b195f08824aac3c9e0e0e987af78b9f36c874121485826ee3bfd1765d2d8c2"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "941fc5f9d3db0ba40dc478b7f358fe50387795b507e4e83bebd96b7fd368a64d"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "63032969d4ce370bfce93a603d39d98ea12adb7edd53e918469cf43bdcfad7e2"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "b2e3ebdef6a8723b4e58ebf04897bd49a771cfd5ab46c4841b4c72f8532e22e5"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "39383436dcfd66fa52ab445bd0ecfe1a041e5d7c368b1ece857658db66bc2a6a",
+    "input_sha256": "868cc5accb59d4976d3c568f9b206ee9c52a57389d09e3ba94598602a1e0bfd3",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.6668244202555608,
+        "imbalance5": -0.07053116059211345,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100003.394700866,
+        "weighted_midpoint": 99999.33317557976
+      },
+      "asks": [
+        {
+          "orders": "5",
+          "price_ticks": "100001",
+          "quantity": "1761"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100002",
+          "quantity": "3272"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100003",
+          "quantity": "3679"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100004",
+          "quantity": "1387"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100005",
+          "quantity": "2810"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100006",
+          "quantity": "2344"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100007",
+          "quantity": "2964"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100008",
+          "quantity": "3069"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100009",
+          "quantity": "2122"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100010",
+          "quantity": "3541"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "3",
+          "price_ticks": "99999",
+          "quantity": "352"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99998",
+          "quantity": "1844"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99997",
+          "quantity": "1278"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99996",
+          "quantity": "4026"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99995",
+          "quantity": "3708"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "638"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99993",
+          "quantity": "4099"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99992",
+          "quantity": "2817"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99991",
+          "quantity": "6356"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99990",
+          "quantity": "58"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5010",
+        "ask_levels": "496",
+        "bid_levels": "495",
+        "event_counts": [
+          385506,
+          354055,
+          177106,
+          44492,
+          43841
+        ],
+        "execution_notional": "1369523089634",
+        "execution_volume": "13694766",
+        "peak_live_orders": "5033",
+        "sequence": "1005000",
+        "timestamp_ns": "5027214604",
+        "total_quantity": "2034666"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "9633e4f8629aaa5ce68190d56df474dd214592c476c11ee1ff1334095e239475"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "98aa27dd134d22438b871591f2f108bb85bb06ab793df8045b281aa5826d47f9"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "9a9daed64ce744df00dde5d200d89d3ebc8b6fe768b00eaf321e64fbe8f4e5f4"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "8b3b6ade8ef2ba61cdf7c28bfd055dced8216447ac7cb883a42637ccea81fa24"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "ad5dde587822c304fb04ed63a7334b9610c399f82ef99871655a4640b2212e22",
+    "input_sha256": "ec3ed0979d441de9ab7444a252726ff469a4c3dd8bb7a23a1a733ac911fc752c",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.9697865353037767,
+        "imbalance5": 0.054438102735681955,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100001.0633775689,
+        "weighted_midpoint": 99999.03021346469
+      },
+      "asks": [
+        {
+          "orders": "8",
+          "price_ticks": "100001",
+          "quantity": "2999"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100002",
+          "quantity": "2435"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100003",
+          "quantity": "2001"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100004",
+          "quantity": "4073"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "503"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100006",
+          "quantity": "2141"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100007",
+          "quantity": "1033"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "100008",
+          "quantity": "2301"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100009",
+          "quantity": "806"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100010",
+          "quantity": "2098"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "2",
+          "price_ticks": "99999",
+          "quantity": "46"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "2227"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99997",
+          "quantity": "2196"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99996",
+          "quantity": "4034"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99995",
+          "quantity": "4891"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99994",
+          "quantity": "3135"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99993",
+          "quantity": "1744"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99992",
+          "quantity": "1222"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99991",
+          "quantity": "2506"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99990",
+          "quantity": "1714"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5000",
+        "ask_levels": "497",
+        "bid_levels": "496",
+        "event_counts": [
+          385138,
+          354287,
+          177432,
+          44071,
+          44072
+        ],
+        "execution_notional": "1357436334520",
+        "execution_volume": "13574219",
+        "peak_live_orders": "5027",
+        "sequence": "1005000",
+        "timestamp_ns": "5023651142",
+        "total_quantity": "2048743"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "d05c3676a9c6d9469786925479635154172595bf06f392955fc31431d8cbbe75"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "a554f28360ffe722b7d96744e8846e5876e4e08a040cfe3aa7ac77b25dcb1dad"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "97e879b481383564dcce5d55c7e3b5e2911d5122fa82230a8f767fd8d1143630"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "8464f6cc5f258df281a9f883adb1ba01bf5662d3a00059f8a753f9b0a538942f"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "78d937f10dc1ab4a1db0c3c5e3fdd51f83d9b9bf7ed65c8e8c944a26e704feff",
+    "input_sha256": "3c54c569cbb4945402ac1f74cb82a3750e9dc0d31bf0b3d912c8de37061d4ad5",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.24129353233830847,
+        "imbalance5": 0.21903932033547543,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.53532632708,
+        "weighted_midpoint": 99999.75870646766
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "499"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100002",
+          "quantity": "423"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100003",
+          "quantity": "474"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100004",
+          "quantity": "1607"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100005",
+          "quantity": "582"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100006",
+          "quantity": "788"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100007",
+          "quantity": "809"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100008",
+          "quantity": "1867"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100009",
+          "quantity": "1633"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "754"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "99999",
+          "quantity": "305"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99998",
+          "quantity": "1733"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99997",
+          "quantity": "398"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99996",
+          "quantity": "567"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99995",
+          "quantity": "2593"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99994",
+          "quantity": "1293"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99993",
+          "quantity": "373"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99992",
+          "quantity": "8"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99991",
+          "quantity": "830"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99990",
+          "quantity": "563"
+        }
+      ],
+      "statistics": {
+        "active_orders": "503",
+        "ask_levels": "92",
+        "bid_levels": "96",
+        "event_counts": [
+          380824,
+          353687,
+          177244,
+          44167,
+          44578
+        ],
+        "execution_notional": "1358017689620",
+        "execution_volume": "13580240",
+        "peak_live_orders": "530",
+        "sequence": "1000500",
+        "timestamp_ns": "4998832219",
+        "total_quantity": "201747"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "15588680e4584af952fd92bc9b2264e5ea605f52fa874dd179f9694a9170c4fc"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "ffd403375eec3248c38c07219b01626b4bdd1a708b0766b0038bf0c6482b6f0c"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "efd40bd52eb46a346db43dfa7b0b62c2331fecbaffc29417f4d299b7dc9a30c2"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "1085d22f35fad094f15e002023702ec3024c55edc7b4701e9d61e596f24c033a"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "7a2f7d4e1321b4c35f3233f496a1f4d44a531a5c195969926e72973f8c774024",
+    "input_sha256": "836c8007423a00a0fb10b84dbe7a8e05cc5089d34af58a3c9de94d1569cc39e8",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.48661005878510777,
+        "imbalance5": -0.1876437068879336,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.71195206778,
+        "weighted_midpoint": 100000.4866100588
+      },
+      "asks": [
+        {
+          "orders": "2",
+          "price_ticks": "100001",
+          "quantity": "393"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100002",
+          "quantity": "1252"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100003",
+          "quantity": "1311"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "733"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100005",
+          "quantity": "2251"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100006",
+          "quantity": "1435"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100007",
+          "quantity": "939"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100008",
+          "quantity": "1265"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100009",
+          "quantity": "1012"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100010",
+          "quantity": "124"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "1138"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99998",
+          "quantity": "11"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99997",
+          "quantity": "2823"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99996",
+          "quantity": "66"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99995",
+          "quantity": "25"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "1675"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99993",
+          "quantity": "1674"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99992",
+          "quantity": "104"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99991",
+          "quantity": "2271"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99990",
+          "quantity": "950"
+        }
+      ],
+      "statistics": {
+        "active_orders": "500",
+        "ask_levels": "94",
+        "bid_levels": "90",
+        "event_counts": [
+          381083,
+          353862,
+          177300,
+          44446,
+          43809
+        ],
+        "execution_notional": "1365657666240",
+        "execution_volume": "13656616",
+        "peak_live_orders": "533",
+        "sequence": "1000500",
+        "timestamp_ns": "5004758431",
+        "total_quantity": "189502"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "82c054ce11e3e2091b5434a7bbc8153099bebe7f9d12e4d5ff5186ba9234940a"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "8f692349997d9e10f9e6a7f3278d2220de32ad20828d91d08ed3d80bd54f1159"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "e05f5b7d9022d84890a4a480aa230b89cdf2a2b19a7eb33111af3d403d200f0d"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "317ea0187ad1b179b601b3b8019fc2b1cbcf56320a085c58ae3402ff5e1b3f33"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "2d54ca4564ffa33ee2cb6290b6fbf4f1d378a53a7fcad198c706f6d3e5ea709e",
+    "input_sha256": "f37170ad37c7a7480a95240ce8a2bbf69734c7b82beeeb1a693d872a7337de3c",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.35220994475138123,
+        "imbalance5": 0.18059890341628004,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.06719667201,
+        "weighted_midpoint": 100000.35220994474
+      },
+      "asks": [
+        {
+          "orders": "3",
+          "price_ticks": "100001",
+          "quantity": "469"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100002",
+          "quantity": "712"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100003",
+          "quantity": "1539"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100005",
+          "quantity": "1397"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100006",
+          "quantity": "740"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100007",
+          "quantity": "777"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100008",
+          "quantity": "35"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100009",
+          "quantity": "54"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100010",
+          "quantity": "336"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100011",
+          "quantity": "317"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "979"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99997",
+          "quantity": "2487"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99996",
+          "quantity": "1335"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99995",
+          "quantity": "358"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "1839"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99993",
+          "quantity": "384"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99992",
+          "quantity": "1115"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "1410"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99990",
+          "quantity": "833"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99989",
+          "quantity": "583"
+        }
+      ],
+      "statistics": {
+        "active_orders": "504",
+        "ask_levels": "89",
+        "bid_levels": "95",
+        "event_counts": [
+          380747,
+          353999,
+          177521,
+          44146,
+          44087
+        ],
+        "execution_notional": "1357358312099",
+        "execution_volume": "13573574",
+        "peak_live_orders": "526",
+        "sequence": "1000500",
+        "timestamp_ns": "5000115865",
+        "total_quantity": "202405"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "19779295c0b15b25bd0506b3bc42757ea8ea0580175b577b650cbda8dd9e9f54"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "2d2c6e802cc2ff04b7af594531f7acbec11550e20d194703a8ee5420ae02b6b3"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "2d960e855bfb86c78fc32daa1a2a8c843817ca6955f58e421bf37962d7d9cb79"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "6802ed150c0f2023865a1e2335431e695048c5b27291c6a65a84efe8232cb9d4"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "58b00bfcb124da6aa51ecaa4fcacc0c2e3c887da0ddb22b09a7dca45bc815ef1",
+    "input_sha256": "6564df29ae8dbab5ffd54f414a4a1004366961bca4f6c7921a586b7cb6a4a6f9",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.2994134897360704,
+        "imbalance5": -0.01782626331632544,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.0845345295,
+        "weighted_midpoint": 99999.70058651025
+      },
+      "asks": [
+        {
+          "orders": "11",
+          "price_ticks": "100001",
+          "quantity": "4431"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100002",
+          "quantity": "2479"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100003",
+          "quantity": "5522"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100004",
+          "quantity": "5511"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100005",
+          "quantity": "5895"
+        },
+        {
+          "orders": "19",
+          "price_ticks": "100006",
+          "quantity": "8317"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100007",
+          "quantity": "3993"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100008",
+          "quantity": "3798"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100009",
+          "quantity": "4509"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "100010",
+          "quantity": "5124"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "9",
+          "price_ticks": "99999",
+          "quantity": "2389"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99998",
+          "quantity": "5009"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99997",
+          "quantity": "3832"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "99996",
+          "quantity": "5447"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99995",
+          "quantity": "6326"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99994",
+          "quantity": "4650"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99993",
+          "quantity": "1965"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99992",
+          "quantity": "5125"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99991",
+          "quantity": "5059"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "99990",
+          "quantity": "5553"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50001",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          386531,
+          94708,
+          94824,
+          378965,
+          94972
+        ],
+        "execution_notional": "11518389337008",
+        "execution_volume": "115183796",
+        "peak_live_orders": "50049",
+        "sequence": "1050000",
+        "timestamp_ns": "5246842300",
+        "total_quantity": "19753454"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "fc3564ccc8d97c807020a4ce2f2e6de32751180987113658cad6cd6ab114150e"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "b570151babd4b7d886e4f3b136ddd5fb6587cb241f8e50b914ff8aea467ee5a3"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "174d991f88c56ec90fe3140d444f95ada3cb5090ab3a45d408a69591e307de78"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "e04d7df33b7d59aac397cf57646af2770901116f97b9abfa36d589966133a48a"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "a57227b8bbf8ed02778246c62de0e67cf2b992858de6195d1a16fcd8552c041d",
+    "input_sha256": "329aed1ffc1f78e2650a8e52daf01afdf578b26a94f1201b9616a1ec3e272686",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.3189133323490329,
+        "imbalance5": -0.05143146693691411,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100001.90001769093,
+        "weighted_midpoint": 99999.68108666765
+      },
+      "asks": [
+        {
+          "orders": "15",
+          "price_ticks": "100001",
+          "quantity": "8933"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100002",
+          "quantity": "6467"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100003",
+          "quantity": "4737"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100004",
+          "quantity": "7072"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100005",
+          "quantity": "3916"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100006",
+          "quantity": "7474"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "100007",
+          "quantity": "3995"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100008",
+          "quantity": "3275"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100009",
+          "quantity": "6153"
+        },
+        {
+          "orders": "16",
+          "price_ticks": "100010",
+          "quantity": "7949"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "15",
+          "price_ticks": "99999",
+          "quantity": "4613"
+        },
+        {
+          "orders": "19",
+          "price_ticks": "99998",
+          "quantity": "6441"
+        },
+        {
+          "orders": "19",
+          "price_ticks": "99997",
+          "quantity": "6833"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99996",
+          "quantity": "3651"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99995",
+          "quantity": "6542"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99994",
+          "quantity": "5137"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "99993",
+          "quantity": "4579"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99992",
+          "quantity": "5025"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99991",
+          "quantity": "6615"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99990",
+          "quantity": "5608"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50002",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          386656,
+          95424,
+          94783,
+          378763,
+          94374
+        ],
+        "execution_notional": "11525897989940",
+        "execution_volume": "115256790",
+        "peak_live_orders": "50066",
+        "sequence": "1050000",
+        "timestamp_ns": "5254730706",
+        "total_quantity": "19766293"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "42ea62e138d8376649ce3b5913051f26bb5bc94f528fe40b4bc53f61a592264b"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "c038636b02d3423778164ab0d765030402faa8c9bbf3c35358a4dd080bcee8d1"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "e2dcdb6c0c8e1f3252418a384382bd995a2a5bd82ad11f2d942fb45db4df7ee6"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "fd61651c57aa670980e043ec4626ba079ba5f6a9269bafff2600f6d4353da348"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1050000,
+    "final_state_sha256": "2913bbb1c8649c04a8d55caef538c95861a4d9844c0c12302067bcd70244a78e",
+    "input_sha256": "0c2311723a6e48530ab43eef75d7977faddf49e19bd6951c2eaa4f79f5067b58",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.007564020778273945,
+        "imbalance5": 0.011952697834103335,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99997.84574518143,
+        "weighted_midpoint": 100000.00756402078
+      },
+      "asks": [
+        {
+          "orders": "15",
+          "price_ticks": "100001",
+          "quantity": "5445"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100002",
+          "quantity": "6643"
+        },
+        {
+          "orders": "11",
+          "price_ticks": "100003",
+          "quantity": "4926"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "100004",
+          "quantity": "3621"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "100005",
+          "quantity": "2676"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100006",
+          "quantity": "7510"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "100007",
+          "quantity": "5927"
+        },
+        {
+          "orders": "15",
+          "price_ticks": "100008",
+          "quantity": "5097"
+        },
+        {
+          "orders": "17",
+          "price_ticks": "100009",
+          "quantity": "6987"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100010",
+          "quantity": "5018"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "12",
+          "price_ticks": "99999",
+          "quantity": "5528"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99998",
+          "quantity": "4560"
+        },
+        {
+          "orders": "12",
+          "price_ticks": "99997",
+          "quantity": "3682"
+        },
+        {
+          "orders": "18",
+          "price_ticks": "99996",
+          "quantity": "6758"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99995",
+          "quantity": "3347"
+        },
+        {
+          "orders": "13",
+          "price_ticks": "99994",
+          "quantity": "5345"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "99993",
+          "quantity": "4618"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99992",
+          "quantity": "4623"
+        },
+        {
+          "orders": "14",
+          "price_ticks": "99991",
+          "quantity": "3675"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99990",
+          "quantity": "2591"
+        }
+      ],
+      "statistics": {
+        "active_orders": "50002",
+        "ask_levels": "2000",
+        "bid_levels": "2000",
+        "event_counts": [
+          386734,
+          94329,
+          95035,
+          379233,
+          94669
+        ],
+        "execution_notional": "11548940501033",
+        "execution_volume": "115491893",
+        "peak_live_orders": "50057",
+        "sequence": "1050000",
+        "timestamp_ns": "5248628176",
+        "total_quantity": "19762214"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "92b65579e6c84d181b92303ff179996a2a95291fb97e16f8d810e0e7aefde698"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "667520c9a2c8855533849a34338f220c86ff108133e9e854c2b7ffb7d95a0f6d"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "8b97ff5cf243bea9122914b03f8126878154812b2503f0b0d949d5c79972bf9a"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "f5487ad13b9362f82cfc146a649ed1909b132a192f2c819561db700389366305"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "fc56e5e0aa0b68b7193f4bcbbb3502b83c0cad67d2ec04e86e0de2a7875630a3",
+    "input_sha256": "287441ead897b72d287a9f28ca0ff1fd2aa893935b8041eca36126099ec8a12c",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.2111111111111111,
+        "imbalance5": 0.03353212557668504,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.32179536078,
+        "weighted_midpoint": 99999.78888888888
+      },
+      "asks": [
+        {
+          "orders": "6",
+          "price_ticks": "100001",
+          "quantity": "1853"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100002",
+          "quantity": "2017"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100003",
+          "quantity": "949"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100004",
+          "quantity": "2616"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "1154"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100006",
+          "quantity": "1248"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "100007",
+          "quantity": "2614"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100008",
+          "quantity": "2264"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100009",
+          "quantity": "1242"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100010",
+          "quantity": "2163"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "1207"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1030"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99997",
+          "quantity": "2045"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99996",
+          "quantity": "1757"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99995",
+          "quantity": "3146"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99994",
+          "quantity": "247"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99993",
+          "quantity": "2073"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99992",
+          "quantity": "907"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99991",
+          "quantity": "2274"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99990",
+          "quantity": "2610"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5002",
+        "ask_levels": "497",
+        "bid_levels": "497",
+        "event_counts": [
+          341803,
+          94813,
+          94718,
+          378495,
+          95171
+        ],
+        "execution_notional": "11298113156687",
+        "execution_volume": "112980768",
+        "peak_live_orders": "5049",
+        "sequence": "1005000",
+        "timestamp_ns": "5023911322",
+        "total_quantity": "1961171"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "931ecf3477483c28adb8eb6cf858904f4240c576537924035838077cf9b1a0b7"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "ef5e582a113ad5b66f8cd8f7d1d57404bbfe135c2841b5a718572d99ffeb3de7"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "2211c266c53dd071d74f18921cab041e853db85b260d390e1fe5e50bfb624281"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "15e70e3356c30c01f1d0a0cbf6ff3e08ea4a869b81aacc0fb71a2f8183929d0c"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "0fe49f08d2b806ad03a60b609265852d59fba6976f1c2cbdd357053880e63df7",
+    "input_sha256": "b57e20151b32d3e383227abf6ce8c4cde092d56e381f0af01e587db383c8778e",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.9141503848431024,
+        "imbalance5": 0.1664592913172843,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.91602316243,
+        "weighted_midpoint": 100000.91415038485
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "145"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100002",
+          "quantity": "2566"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100003",
+          "quantity": "599"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100004",
+          "quantity": "2937"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "1457"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100006",
+          "quantity": "3765"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100007",
+          "quantity": "2720"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100008",
+          "quantity": "1435"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100009",
+          "quantity": "725"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "1131"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "7",
+          "price_ticks": "99999",
+          "quantity": "3233"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1061"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99997",
+          "quantity": "128"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99996",
+          "quantity": "3205"
+        },
+        {
+          "orders": "10",
+          "price_ticks": "99995",
+          "quantity": "3154"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "923"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99993",
+          "quantity": "1959"
+        },
+        {
+          "orders": "9",
+          "price_ticks": "99992",
+          "quantity": "3511"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "99991",
+          "quantity": "3353"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99990",
+          "quantity": "1118"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5004",
+        "ask_levels": "497",
+        "bid_levels": "495",
+        "event_counts": [
+          341891,
+          95476,
+          94714,
+          378348,
+          94571
+        ],
+        "execution_notional": "11280150627846",
+        "execution_volume": "112800473",
+        "peak_live_orders": "5064",
+        "sequence": "1005000",
+        "timestamp_ns": "5028377694",
+        "total_quantity": "1982516"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "16ce5acd6f7aa5d814ae55aee0c54cc21fe512ad97ded7fa26e0f8367279fbe3"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "607d680278631f8e77cdfd62ed3bf8334ec5fabd7b4f912f55dab9ab40c970e5"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "1a1442a9f8186f952917c8087d0fcfe0da8abd8b6c6895083901524c501b9fbd"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "9ca5ad4591b621592282411d3367f21f27ec4f97e4045ff5991d9b32e7e7ebe5"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1005000,
+    "final_state_sha256": "47b1dd668ee8fee639e97530f95a203970cea9061d78527619467cea950b5599",
+    "input_sha256": "345087ce425d33fc15eebf7319c9a72baf4309064e3842d341f6f3f9aa887952",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.10822510822510822,
+        "imbalance5": 0.09819331959553362,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.11465453467,
+        "weighted_midpoint": 99999.89177489177
+      },
+      "asks": [
+        {
+          "orders": "5",
+          "price_ticks": "100001",
+          "quantity": "1280"
+        },
+        {
+          "orders": "8",
+          "price_ticks": "100002",
+          "quantity": "2150"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100003",
+          "quantity": "1546"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100004",
+          "quantity": "1470"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100005",
+          "quantity": "2963"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100006",
+          "quantity": "1759"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100007",
+          "quantity": "1620"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100008",
+          "quantity": "2314"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "100009",
+          "quantity": "3468"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "950"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "1030"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99998",
+          "quantity": "2635"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99997",
+          "quantity": "1057"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99996",
+          "quantity": "3992"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99995",
+          "quantity": "2744"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99994",
+          "quantity": "1165"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99993",
+          "quantity": "1147"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99992",
+          "quantity": "1304"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "443"
+        },
+        {
+          "orders": "7",
+          "price_ticks": "99990",
+          "quantity": "2331"
+        }
+      ],
+      "statistics": {
+        "active_orders": "5002",
+        "ask_levels": "498",
+        "bid_levels": "497",
+        "event_counts": [
+          341858,
+          94232,
+          95073,
+          379114,
+          94723
+        ],
+        "execution_notional": "11313572471509",
+        "execution_volume": "113135595",
+        "peak_live_orders": "5059",
+        "sequence": "1005000",
+        "timestamp_ns": "5021823757",
+        "total_quantity": "1981515"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "5b2f4d18f1aa752992745ab6f0fab03d4b91be921e2dd4887bb42fc1051d9b09"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "a5c90bdcde3439181f1200d236a79e01b072629151a525a054fc907833c2e8b9"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "6e4dcb48b8431fb0ce0f3473dc29cad9aebbfbd2c6fd21326e4403661c92b598"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "36028742c3b71697d6c0fbe6393039dc1287f4b6fd8d5eaa973dfd368f52154c"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "c1cd598932dc540d0ea992145da92c976717f863166e12e34ad7691e940db44e",
+    "input_sha256": "f3376bf4a527be9f884fbbca5bd518d3d02a0cf846e2e21881c025338f70511b",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": -0.09994655264564405,
+        "imbalance5": 0.022523823274617383,
+        "midpoint": 100001.0,
+        "spread": 4.0,
+        "status": "normal",
+        "vwap": 99999.90730536373,
+        "weighted_midpoint": 100000.80010689472
+      },
+      "asks": [
+        {
+          "orders": "2",
+          "price_ticks": "100003",
+          "quantity": "1029"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100004",
+          "quantity": "808"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100005",
+          "quantity": "318"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100006",
+          "quantity": "996"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100007",
+          "quantity": "234"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100008",
+          "quantity": "681"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100009",
+          "quantity": "670"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "1041"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100011",
+          "quantity": "2639"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100012",
+          "quantity": "1675"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "2",
+          "price_ticks": "99999",
+          "quantity": "842"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99998",
+          "quantity": "1992"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99997",
+          "quantity": "466"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99996",
+          "quantity": "210"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99995",
+          "quantity": "31"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99994",
+          "quantity": "1772"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99993",
+          "quantity": "539"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99992",
+          "quantity": "861"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99991",
+          "quantity": "182"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99990",
+          "quantity": "1"
+        }
+      ],
+      "statistics": {
+        "active_orders": "514",
+        "ask_levels": "94",
+        "bid_levels": "92",
+        "event_counts": [
+          337428,
+          94890,
+          94679,
+          378461,
+          95042
+        ],
+        "execution_notional": "11267440855677",
+        "execution_volume": "112674513",
+        "peak_live_orders": "547",
+        "sequence": "1000500",
+        "timestamp_ns": "5001277139",
+        "total_quantity": "204147"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "075bed2051befee7765589c4a885d4ce18c4bb23fabacb52c56a32c1c56a7247"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "518b30fbbf054392734d7e2652ba1c23dbfa18ae8f6fcf0600503fef430ce43c"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "e68ada2360b09141d10ba9d1788241f3202f835733e809bc38af62f66b662b87"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "b049bd32270439d06f2f507d5790d2b623aa31ad9b07a0a25a82abe3d23c6695"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "3f302c3bc40d8de3de75b7791f09130731583d2781bd76cf733dfd19bbf3ecd1",
+    "input_sha256": "aa77497efe81116ebe6a8e705fea173507792b7f44fe199749afd516f44c6b3e",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.5028818443804035,
+        "imbalance5": 0.5025038696166804,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 100000.35764606453,
+        "weighted_midpoint": 100000.50288184438
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "690"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100002",
+          "quantity": "1239"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100003",
+          "quantity": "59"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "356"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100005",
+          "quantity": "388"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100007",
+          "quantity": "1564"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100008",
+          "quantity": "225"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100009",
+          "quantity": "716"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100010",
+          "quantity": "943"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100011",
+          "quantity": "1116"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "2086"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99998",
+          "quantity": "1303"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99997",
+          "quantity": "3033"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99996",
+          "quantity": "1533"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99995",
+          "quantity": "296"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99994",
+          "quantity": "265"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99993",
+          "quantity": "2531"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99991",
+          "quantity": "1366"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99990",
+          "quantity": "81"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99989",
+          "quantity": "1528"
+        }
+      ],
+      "statistics": {
+        "active_orders": "500",
+        "ask_levels": "91",
+        "bid_levels": "94",
+        "event_counts": [
+          337494,
+          95335,
+          94609,
+          378500,
+          94562
+        ],
+        "execution_notional": "11243714612559",
+        "execution_volume": "112436744",
+        "peak_live_orders": "561",
+        "sequence": "1000500",
+        "timestamp_ns": "5007601163",
+        "total_quantity": "196484"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [
+      {
+        "event_count": 250000,
+        "sha256": "5a4d305bff9b4f5f433e18caacfa2f56bbff1daf8de6c30f959faacc56389daf"
+      },
+      {
+        "event_count": 500000,
+        "sha256": "3265091efdd3abfc633da79e4517c949e7798a927c7126c09faed1b88bfc9f29"
+      },
+      {
+        "event_count": 750000,
+        "sha256": "7dacb3af04932319c81aa650dce3c8c9ab9674ce0b64448d87d7903e465ff49a"
+      },
+      {
+        "event_count": 1000000,
+        "sha256": "7b263951bd43942e03201c2beba6fea7ff8bb77a841309c0fb1c684f180871c1"
+      }
+    ],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 1000500,
+    "final_state_sha256": "d8260edd72aec48b5803f54387c956fe1da3356bae43683edfbac852d2284a01",
+    "input_sha256": "cbf9ec9395d9a4737cea8a6b7fb85256927f125b7b3e48ca2ce0f1da0cfec1e9",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.8493150684931506,
+        "imbalance5": 0.31144343302990896,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.91747217206,
+        "weighted_midpoint": 100000.8493150685
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "100001",
+          "quantity": "66"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100002",
+          "quantity": "65"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100003",
+          "quantity": "1604"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "226"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100005",
+          "quantity": "1216"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100006",
+          "quantity": "641"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100007",
+          "quantity": "609"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100008",
+          "quantity": "1756"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100009",
+          "quantity": "2062"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100010",
+          "quantity": "759"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "810"
+        },
+        {
+          "orders": "6",
+          "price_ticks": "99998",
+          "quantity": "3000"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99997",
+          "quantity": "101"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99996",
+          "quantity": "220"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99995",
+          "quantity": "1920"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99994",
+          "quantity": "65"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99993",
+          "quantity": "1013"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99990",
+          "quantity": "64"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99989",
+          "quantity": "939"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99988",
+          "quantity": "840"
+        }
+      ],
+      "statistics": {
+        "active_orders": "499",
+        "ask_levels": "92",
+        "bid_levels": "92",
+        "event_counts": [
+          337389,
+          94278,
+          95003,
+          379213,
+          94617
+        ],
+        "execution_notional": "11277796292672",
+        "execution_volume": "112778056",
+        "peak_live_orders": "555",
+        "sequence": "1000500",
+        "timestamp_ns": "4998454320",
+        "total_quantity": "197124"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  },
+  {
+    "checkpoints": [],
+    "complete": true,
+    "engine_commit": "uncommitted",
+    "event_count": 2000,
+    "final_state_sha256": "0bedf17f60fbaf6a264f158fd36e81c0922c96ba70c48e14f04aa39f66f68019",
+    "input_sha256": "18855eb7c2d2313537a1942923c2fe21f73fcf75d457f7889cc893a5150762e0",
+    "schema_version": 1,
+    "summary": {
+      "analytics": {
+        "imbalance": 0.03386581469648562,
+        "imbalance5": -0.06359256710254646,
+        "midpoint": 100000.0,
+        "spread": 2.0,
+        "status": "normal",
+        "vwap": 99999.97715449937,
+        "weighted_midpoint": 100000.0338658147
+      },
+      "asks": [
+        {
+          "orders": "3",
+          "price_ticks": "100001",
+          "quantity": "756"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100002",
+          "quantity": "1533"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "100003",
+          "quantity": "2197"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100004",
+          "quantity": "681"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100005",
+          "quantity": "2560"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "100006",
+          "quantity": "1403"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100007",
+          "quantity": "924"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "100008",
+          "quantity": "458"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "100009",
+          "quantity": "1763"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "100010",
+          "quantity": "860"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "4",
+          "price_ticks": "99999",
+          "quantity": "809"
+        },
+        {
+          "orders": "5",
+          "price_ticks": "99998",
+          "quantity": "1037"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99997",
+          "quantity": "1360"
+        },
+        {
+          "orders": "3",
+          "price_ticks": "99996",
+          "quantity": "1609"
+        },
+        {
+          "orders": "4",
+          "price_ticks": "99995",
+          "quantity": "1988"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99994",
+          "quantity": "1050"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99991",
+          "quantity": "667"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99990",
+          "quantity": "241"
+        },
+        {
+          "orders": "2",
+          "price_ticks": "99989",
+          "quantity": "799"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "99988",
+          "quantity": "353"
+        }
+      ],
+      "statistics": {
+        "active_orders": "101",
+        "ask_levels": "19",
+        "bid_levels": "18",
+        "event_counts": [
+          786,
+          396,
+          267,
+          379,
+          172
+        ],
+        "execution_notional": "11976097264",
+        "execution_volume": "119761",
+        "peak_live_orders": "128",
+        "sequence": "2000",
+        "timestamp_ns": "9886794",
+        "total_quantity": "41687"
+      }
+    },
+    "synthetic": true,
+    "variant": "tree"
+  }
+]

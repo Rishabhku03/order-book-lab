@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "runs": [
+    {
+      "target": "parser",
+      "exit_code": 0,
+      "elapsed_seconds": 904.1790456000017,
+      "budget_seconds": 900,
+      "executions": 75809302
+    },
+    {
+      "target": "state",
+      "exit_code": 0,
+      "elapsed_seconds": 901.8233738999697,
+      "budget_seconds": 900,
+      "executions": 312431
+    }
+  ],
+  "source_sha256": "a954a7a60381c3cf14f663556e90564dbf2aa99e9c87e985f6466a370a58d366",
+  "fingerprint": {
+    "target_source_sha256": "fb2bbba7d9427652fe10dae5d7518bf594155c2f05ca052471a74dfd3e9ab0a9",
+    "binary_sha256": {
+      "parser": "0fc0b5908a9f85f4a7ed97b76d766ba6d20eb41e17a247240f1e97088e7f0d51",
+      "state": "c188b3be1016c01460d91142833831901b5119a1a6568eafd531ae2d4366dd79"
+    }
+  },
+  "binary_sha256": {
+    "parser": "0fc0b5908a9f85f4a7ed97b76d766ba6d20eb41e17a247240f1e97088e7f0d51",
+    "state": "c188b3be1016c01460d91142833831901b5119a1a6568eafd531ae2d4366dd79"
+  }
+}

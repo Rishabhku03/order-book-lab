@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "local_checks": [
+    "release core/integration and 100-seed differential tests",
+    "debug build and tests",
+    "sanitize build and tests",
+    "coverage thresholds",
+    "900-second parser/state fuzz sessions",
+    "regenerated demo and export schemas",
+    "desktop/mobile browser and visual checks",
+    "fresh source reproduction",
+    "formatting and compiler warnings"
+  ],
+  "fuzz_seconds_per_target": 900,
+  "elapsed_seconds": 1272.8603317000088,
+  "elapsed_scope": "this invocation",
+  "reused_fuzz_evidence": false,
+  "external_checks_pending": [
+    "Linux GitHub Actions execution",
+    "GitHub Pages deployment",
+    "Git release commit"
+  ],
+  "scope": "Local verification; full performance matrix is a separate benchmark command."
+}

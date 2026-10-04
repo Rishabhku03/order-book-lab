@@ -1,0 +1,20 @@
+{
+  "measured_source_sha256": "636216486835ab66831c65d9bedd23a324c36403602704262aa47c00f8e6b7fb",
+  "archive_sha256": "59819fc4cc55fbe0933a469b04a93dbebbeda2c420c75b14eb42a5da106f58a0",
+  "files": 25,
+  "scope": "Exact files included in the benchmark source fingerprint, captured before report presentation edits.",
+  "report_generator_sha256": "3f8660bf0b2f94ecf15c522b060bb047ed416b5d1110f3b12229e0fd75b67395",
+  "native_binary_sha256": "2c6f76258bf5357c0cdb314a6ccad28ffa73116087027cb2810f52611bd55905",
+  "presentation_change": "Latency table labels clarify the median of run maxima; measurement and native code remain unchanged.",
+  "current_native_binary_sha256": "e1e933691c89f77a2d9b26eff2a5b83f20c74b900eb13c9ec74559be553e4c51",
+  "current_report_generator_sha256": "57d7e95cfef392bfa465250b4acb74e6e9e0ac76a75c92b456a90e4dcb12f187",
+  "measured_binary_artifact": "bin/lob.exe",
+  "audit_date": "2026-10-03",
+  "post_measurement_changes": [
+    "Report labels and regeneration preserve the reviewed write-up.",
+    "CLI inspection now checks ordering beyond its target; the benchmark timing function and core headers remain unchanged.",
+    "Setup diagnostics and audit/manual-fixture tools were updated.",
+    "Verification-page prose and unused duplicate screenshot exports were cleaned; benchmark timing and native sources were unchanged."
+  ],
+  "performance_scope": "Historical October 1 measurements of the archived source and binary; no new full-matrix performance claim for the rebuilt CLI."
+}

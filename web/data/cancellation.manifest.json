@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "instrument": "SYNTH",
+  "tick_size": 0.01,
+  "generator_version": "splitmix64-v1",
+  "seed": 42,
+  "profile": "cancellation",
+  "max_live_orders": 200,
+  "price_levels_per_side": 20,
+  "setup_events": 100,
+  "measured_events": 1900,
+  "total_events": 2000,
+  "requested_weights": {
+    "ADD": 30,
+    "CANCEL": 40,
+    "DELETE": 20,
+    "EXECUTE": 5,
+    "REPLACE": 5
+  },
+  "realized_counts": {
+    "CANCEL": 645,
+    "ADD": 739,
+    "DELETE": 341,
+    "REPLACE": 87,
+    "EXECUTE": 88
+  },
+  "realized_percentages": {
+    "ADD": 38.89473684210526,
+    "CANCEL": 33.94736842105263,
+    "DELETE": 17.94736842105263,
+    "EXECUTE": 4.631578947368421,
+    "REPLACE": 4.578947368421052
+  },
+  "population": {
+    "min": 99,
+    "max": 114,
+    "mean": 101.8157894736842,
+    "histogram": {
+      "99": 227,
+      "100": 536,
+      "101": 376,
+      "102": 233,
+      "103": 164,
+      "104": 102,
+      "105": 66,
+      "106": 46,
+      "107": 41,
+      "108": 36,
+      "109": 28,
+      "110": 19,
+      "111": 9,
+      "112": 10,
+      "113": 5,
+      "114": 2
+    }
+  },
+  "sha256": "b58bd24e006a5b6acaec02b3796b14c11d9837b81430e4c2488e9afd2c399562"
+}

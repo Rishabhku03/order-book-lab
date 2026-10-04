@@ -1,0 +1,483 @@
+{
+  "engine_commit": "uncommitted",
+  "frames": [
+    {
+      "analytics": {
+        "imbalance": null,
+        "imbalance5": null,
+        "midpoint": null,
+        "spread": null,
+        "status": "one-sided",
+        "vwap": null,
+        "weighted_midpoint": null
+      },
+      "asks": [],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "100"
+        }
+      ],
+      "event": {
+        "new_order_id": null,
+        "order_id": "9007199254740993",
+        "price_ticks": "10000",
+        "quantity": "100",
+        "sequence": "1",
+        "side": "B",
+        "timestamp_ns": "0",
+        "type": "ADD"
+      },
+      "statistics": {
+        "active_orders": "1",
+        "ask_levels": "0",
+        "bid_levels": "1",
+        "event_counts": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_notional": "0",
+        "execution_volume": "0",
+        "peak_live_orders": "1",
+        "sequence": "1",
+        "timestamp_ns": "0",
+        "total_quantity": "100"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.25,
+        "imbalance5": 0.25,
+        "midpoint": 10002.0,
+        "spread": 4.0,
+        "status": "normal",
+        "vwap": null,
+        "weighted_midpoint": 10002.5
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10004",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "100"
+        }
+      ],
+      "event": {
+        "new_order_id": null,
+        "order_id": "2",
+        "price_ticks": "10004",
+        "quantity": "60",
+        "sequence": "2",
+        "side": "A",
+        "timestamp_ns": "1000",
+        "type": "ADD"
+      },
+      "statistics": {
+        "active_orders": "2",
+        "ask_levels": "1",
+        "bid_levels": "1",
+        "event_counts": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_notional": "0",
+        "execution_volume": "0",
+        "peak_live_orders": "2",
+        "sequence": "2",
+        "timestamp_ns": "1000",
+        "total_quantity": "160"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.25,
+        "imbalance5": 0.5,
+        "midpoint": 10002.0,
+        "spread": 4.0,
+        "status": "normal",
+        "vwap": null,
+        "weighted_midpoint": 10002.5
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10004",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "100"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "80"
+        }
+      ],
+      "event": {
+        "new_order_id": null,
+        "order_id": "3",
+        "price_ticks": "9999",
+        "quantity": "80",
+        "sequence": "3",
+        "side": "B",
+        "timestamp_ns": "2000",
+        "type": "ADD"
+      },
+      "statistics": {
+        "active_orders": "3",
+        "ask_levels": "1",
+        "bid_levels": "2",
+        "event_counts": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "execution_notional": "0",
+        "execution_volume": "0",
+        "peak_live_orders": "3",
+        "sequence": "3",
+        "timestamp_ns": "2000",
+        "total_quantity": "240"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.0,
+        "imbalance5": 0.4,
+        "midpoint": 10002.0,
+        "spread": 4.0,
+        "status": "normal",
+        "vwap": 10000.0,
+        "weighted_midpoint": 10002.0
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10004",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "80"
+        }
+      ],
+      "event": {
+        "new_order_id": null,
+        "order_id": "9007199254740993",
+        "price_ticks": null,
+        "quantity": "40",
+        "sequence": "4",
+        "side": null,
+        "timestamp_ns": "3000",
+        "type": "EXECUTE"
+      },
+      "statistics": {
+        "active_orders": "3",
+        "ask_levels": "1",
+        "bid_levels": "2",
+        "event_counts": [
+          3,
+          0,
+          0,
+          1,
+          0
+        ],
+        "execution_notional": "400000",
+        "execution_volume": "40",
+        "peak_live_orders": "3",
+        "sequence": "4",
+        "timestamp_ns": "3000",
+        "total_quantity": "200"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.0,
+        "imbalance5": 0.4,
+        "midpoint": 9999.5,
+        "spread": -1.0,
+        "status": "crossed",
+        "vwap": 10000.0,
+        "weighted_midpoint": 9999.5
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "80"
+        }
+      ],
+      "event": {
+        "new_order_id": "4",
+        "order_id": "2",
+        "price_ticks": "9999",
+        "quantity": "60",
+        "sequence": "5",
+        "side": null,
+        "timestamp_ns": "4000",
+        "type": "REPLACE"
+      },
+      "statistics": {
+        "active_orders": "3",
+        "ask_levels": "1",
+        "bid_levels": "2",
+        "event_counts": [
+          3,
+          0,
+          0,
+          1,
+          1
+        ],
+        "execution_notional": "400000",
+        "execution_volume": "40",
+        "peak_live_orders": "3",
+        "sequence": "5",
+        "timestamp_ns": "4000",
+        "total_quantity": "200"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.0,
+        "imbalance5": 0.4,
+        "midpoint": 10000.0,
+        "spread": 0.0,
+        "status": "locked",
+        "vwap": 10000.0,
+        "weighted_midpoint": 10000.0
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        },
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "80"
+        }
+      ],
+      "event": {
+        "new_order_id": "5",
+        "order_id": "4",
+        "price_ticks": "10000",
+        "quantity": "60",
+        "sequence": "6",
+        "side": null,
+        "timestamp_ns": "5000",
+        "type": "REPLACE"
+      },
+      "statistics": {
+        "active_orders": "3",
+        "ask_levels": "1",
+        "bid_levels": "2",
+        "event_counts": [
+          3,
+          0,
+          0,
+          1,
+          2
+        ],
+        "execution_notional": "400000",
+        "execution_volume": "40",
+        "peak_live_orders": "3",
+        "sequence": "6",
+        "timestamp_ns": "5000",
+        "total_quantity": "200"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": 0.14285714285714285,
+        "imbalance5": 0.14285714285714285,
+        "midpoint": 9999.5,
+        "spread": 1.0,
+        "status": "normal",
+        "vwap": 10000.0,
+        "weighted_midpoint": 9999.571428571428
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        }
+      ],
+      "bids": [
+        {
+          "orders": "1",
+          "price_ticks": "9999",
+          "quantity": "80"
+        }
+      ],
+      "event": {
+        "new_order_id": null,
+        "order_id": "9007199254740993",
+        "price_ticks": null,
+        "quantity": "60",
+        "sequence": "7",
+        "side": null,
+        "timestamp_ns": "6000",
+        "type": "CANCEL"
+      },
+      "statistics": {
+        "active_orders": "2",
+        "ask_levels": "1",
+        "bid_levels": "1",
+        "event_counts": [
+          3,
+          1,
+          0,
+          1,
+          2
+        ],
+        "execution_notional": "400000",
+        "execution_volume": "40",
+        "peak_live_orders": "3",
+        "sequence": "7",
+        "timestamp_ns": "6000",
+        "total_quantity": "140"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": null,
+        "imbalance5": null,
+        "midpoint": null,
+        "spread": null,
+        "status": "one-sided",
+        "vwap": 10000.0,
+        "weighted_midpoint": null
+      },
+      "asks": [
+        {
+          "orders": "1",
+          "price_ticks": "10000",
+          "quantity": "60"
+        }
+      ],
+      "bids": [],
+      "event": {
+        "new_order_id": null,
+        "order_id": "3",
+        "price_ticks": null,
+        "quantity": null,
+        "sequence": "8",
+        "side": null,
+        "timestamp_ns": "7000",
+        "type": "DELETE"
+      },
+      "statistics": {
+        "active_orders": "1",
+        "ask_levels": "1",
+        "bid_levels": "0",
+        "event_counts": [
+          3,
+          1,
+          1,
+          1,
+          2
+        ],
+        "execution_notional": "400000",
+        "execution_volume": "40",
+        "peak_live_orders": "3",
+        "sequence": "8",
+        "timestamp_ns": "7000",
+        "total_quantity": "60"
+      }
+    },
+    {
+      "analytics": {
+        "imbalance": null,
+        "imbalance5": null,
+        "midpoint": null,
+        "spread": null,
+        "status": "empty",
+        "vwap": 10000.0,
+        "weighted_midpoint": null
+      },
+      "asks": [],
+      "bids": [],
+      "event": {
+        "new_order_id": null,
+        "order_id": "5",
+        "price_ticks": null,
+        "quantity": "60",
+        "sequence": "9",
+        "side": null,
+        "timestamp_ns": "8000",
+        "type": "EXECUTE"
+      },
+      "statistics": {
+        "active_orders": "0",
+        "ask_levels": "0",
+        "bid_levels": "0",
+        "event_counts": [
+          3,
+          1,
+          1,
+          2,
+          2
+        ],
+        "execution_notional": "1000000",
+        "execution_volume": "100",
+        "peak_live_orders": "3",
+        "sequence": "9",
+        "timestamp_ns": "8000",
+        "total_quantity": "0"
+      }
+    }
+  ],
+  "input_sha256": "965a60cbf8d006ddcd107d101750c1a20143580e302b256232bbae32065d1521",
+  "instrument": "SYNTH",
+  "schema_version": 1,
+  "synthetic": true,
+  "tick_size": 0.01
+}

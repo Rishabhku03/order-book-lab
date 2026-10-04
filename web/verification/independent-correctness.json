@@ -1,0 +1,20 @@
+{
+  "source_sha256": "a954a7a60381c3cf14f663556e90564dbf2aa99e9c87e985f6466a370a58d366",
+  "binary_sha256": "b8a04d967c66ffe25f4cdb20a9a688bce67b2d2748e5dbbc6df8d82e7d80cba8",
+  "preset": "release",
+  "complete": true,
+  "seeds": 100,
+  "measured_events_per_seed": 2000,
+  "setup_events_per_seed": 100,
+  "variants": [
+    "tree",
+    "hash",
+    "hash_reserved"
+  ],
+  "comparisons_including_setup": 630000,
+  "measured_comparisons_per_variant": 200000,
+  "tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-10
+  }
+}

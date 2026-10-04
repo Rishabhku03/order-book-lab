@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Explore a C++ limit order book replay engine, synthetic scenarios, and reproducible benchmarks.">
+<title>Order Book Lab</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./">ORDER BOOK <span>LAB</span></a><nav><a href="#replay">Replay</a><a href="benchmarks.html">Benchmarks</a><a href="verification.html">Verification</a><a href="#about">About</a></nav></header>
+<main>
+<section class="intro"><p class="eyebrow">C++20 · DETERMINISTIC REPLAY</p><h1>Watch the book<br>change, one event at a time.</h1>
+<p class="lede">Explore how additions, cancellations and executions change the available liquidity. Every frame below was produced by the C++ engine.</p>
+<div class="pills"><span>Synthetic data</span><span>Saved C++ output</span><span>One instrument</span></div></section>
+<section id="replay" aria-label="Order book replay">
+<div class="toolbar"><div><label for="scenario">SCENARIO</label><select id="scenario"></select></div>
+<div><label for="upload">OPEN YOUR TRACE</label><input id="upload" type="file" accept=".json,application/json"></div></div>
+<p id="error" role="alert" hidden></p>
+<div class="controls"><button id="reset" aria-label="Reset playback">Reset</button><button id="previous" aria-label="Previous event">←</button>
+<button id="play" class="primary">Play</button><button id="next" aria-label="Next event">→</button>
+<label for="speed">Speed</label><select id="speed"><option value="1">1 event/s</option><option value="10" selected>10 events/s</option><option value="100">100 events/s</option></select>
+<output id="position"></output></div>
+<input id="seek" type="range" min="0" max="0" value="0" aria-label="Event position">
+<div class="metrics"><article><small>BEST BID</small><strong id="bid">—</strong></article><article><small>BEST ASK</small><strong id="ask">—</strong></article>
+<article><small>SPREAD · TICKS</small><strong id="spread">—</strong></article><article><small>TOP-LEVEL IMBALANCE</small><strong id="imbalance">—</strong></article>
+<article><small>BOOK STATE</small><strong id="status">—</strong></article></div>
+<div class="grid"><section class="panel"><div class="panel-head"><h2>Available liquidity</h2><span>Up to 10 levels per side</span></div>
+<div class="book"><table><caption>Bids</caption><thead><tr><th>Price</th><th>Quantity</th><th>Orders</th></tr></thead><tbody id="bids"></tbody></table>
+<table><caption>Asks</caption><thead><tr><th>Price</th><th>Quantity</th><th>Orders</th></tr></thead><tbody id="asks"></tbody></table></div></section>
+<section class="panel"><div class="panel-head"><h2>Cumulative depth</h2><span>Quantity by level</span></div><svg id="depth" viewBox="0 0 520 240" role="img" aria-label="Cumulative bid and ask quantity by depth"></svg><p class="legend"><span class="bid-color">Bids</span><span class="ask-color">Asks</span></p></section></div>
+<div class="grid"><section class="panel"><h2>Spread history <small>ticks</small></h2><svg id="spread-chart" viewBox="0 0 520 160" role="img" aria-label="Spread history through current event"></svg></section>
+<section class="panel"><h2>Imbalance history <small>−1 to +1</small></h2><svg id="imbalance-chart" viewBox="0 0 520 160" role="img" aria-label="Imbalance history through current event"></svg></section></div>
+<section class="event-panel"><p class="eyebrow">SELECTED EVENT</p><h2 id="event-title"></h2><p id="event-description"></p><p id="event-details" class="mono"></p></section>
+<div class="downloads"><a id="download-trace" download>Download trace</a><a id="download-input" download>Download event CSV</a><a id="download-manifest" download>Download manifest</a></div>
+</section>
+<section id="about" class="about"><h2>What this demonstrates</h2><div class="grid"><p>The engine reconstructs order state from a sequence of updates. Executions identify an existing order; this is a replay engine, not an exchange matching engine. All scenarios are generated or hand-authored.</p><p>Playback speed changes the presentation only. Native C++ measurements cover book updates, parsing, analytics and memory separately. Your uploaded trace stays in this browser.</p></div><p id="provenance" class="mono"></p></section>
+</main><footer>C++ order book replay & analytics · Synthetic workloads · Reproducible measurements</footer>
+<script src="app.js" defer></script></body></html>

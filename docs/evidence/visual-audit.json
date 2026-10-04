@@ -1,0 +1,162 @@
+{
+  "complete": true,
+  "browser": "Chromium",
+  "checked_viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "palette": "black and white; series distinguished by line pattern",
+  "computed_colors": {
+    "desktop-initial": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "desktop-populated": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "mobile-populated": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "desktop-cancellation": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "event-add": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "event-execute": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "event-replace": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "lifecycle-crossed": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "lifecycle-locked": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "event-cancel": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "event-delete": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "lifecycle-empty": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "upload-error": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "desktop-benchmarks": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "benchmark-latency-chart": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "benchmark-memory-chart": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "benchmark-latency-table": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "benchmark-overhead": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "mobile-benchmarks": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "mobile-evidence-expanded": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "mobile-verification": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ],
+    "desktop-verification": [
+      "rgb(0, 0, 0)",
+      "rgb(255, 255, 255)",
+      "rgba(0, 0, 0, 0)"
+    ]
+  },
+  "checks": [
+    "Top-ten book, solid bid/dashed ask depth and history charts",
+    "Cancellation-heavy scenario loads and renders saved C++ output",
+    "All five event types and all five book statuses, including exact large IDs",
+    "Keyboard play/pause, all playback rates, reset, previous/next and seeking",
+    "Scenario CSV, manifest and C++ trace downloads have matching checksums",
+    "Valid uploads and malformed/10,001-frame rejection",
+    "Benchmark charts, comparison tables and downloadable measurement evidence",
+    "Visible verification evidence for engine, fuzzing, coverage and reproduction"
+  ],
+  "page_errors": [],
+  "screenshots": [
+    "desktop-initial.png",
+    "desktop-populated.png",
+    "mobile-populated.png",
+    "desktop-cancellation.png",
+    "event-add.png",
+    "event-execute.png",
+    "event-replace.png",
+    "lifecycle-crossed.png",
+    "lifecycle-locked.png",
+    "event-cancel.png",
+    "event-delete.png",
+    "lifecycle-empty.png",
+    "upload-error.png",
+    "desktop-benchmarks.png",
+    "benchmark-latency-chart.png",
+    "benchmark-memory-chart.png",
+    "benchmark-latency-table.png",
+    "benchmark-overhead.png",
+    "mobile-benchmarks.png",
+    "mobile-evidence-expanded.png",
+    "mobile-verification.png",
+    "desktop-verification.png"
+  ]
+}

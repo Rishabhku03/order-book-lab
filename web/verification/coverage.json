@@ -1,0 +1,129 @@
+{
+  "lines": 321,
+  "covered_lines": 312,
+  "line_percent": 97.19626168224299,
+  "branches": 239,
+  "covered_branches": 219,
+  "branch_percent": 91.63179916317992,
+  "scope": [
+    "book.hpp (including analytics)",
+    "parser.hpp",
+    "types.hpp"
+  ],
+  "files": [
+    {
+      "file": "book.hpp",
+      "summary": {
+        "lines": {
+          "count": 222,
+          "covered": 221,
+          "percent": 99.54954954954955
+        },
+        "functions": {
+          "count": 16,
+          "covered": 16,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 40,
+          "covered": 40,
+          "percent": 100
+        },
+        "regions": {
+          "count": 214,
+          "covered": 213,
+          "notcovered": 1,
+          "percent": 99.53271028037383
+        },
+        "branches": {
+          "count": 172,
+          "covered": 158,
+          "notcovered": 14,
+          "percent": 91.86046511627907
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        }
+      }
+    },
+    {
+      "file": "parser.hpp",
+      "summary": {
+        "lines": {
+          "count": 90,
+          "covered": 87,
+          "percent": 96.66666666666667
+        },
+        "functions": {
+          "count": 4,
+          "covered": 4,
+          "percent": 100
+        },
+        "instantiations": {
+          "count": 8,
+          "covered": 8,
+          "percent": 100
+        },
+        "regions": {
+          "count": 96,
+          "covered": 93,
+          "notcovered": 3,
+          "percent": 96.875
+        },
+        "branches": {
+          "count": 67,
+          "covered": 61,
+          "notcovered": 6,
+          "percent": 91.04477611940298
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        }
+      }
+    },
+    {
+      "file": "types.hpp",
+      "summary": {
+        "lines": {
+          "count": 9,
+          "covered": 4,
+          "percent": 44.44444444444444
+        },
+        "functions": {
+          "count": 5,
+          "covered": 4,
+          "percent": 80
+        },
+        "instantiations": {
+          "count": 5,
+          "covered": 4,
+          "percent": 80
+        },
+        "regions": {
+          "count": 5,
+          "covered": 4,
+          "notcovered": 1,
+          "percent": 80
+        },
+        "branches": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        },
+        "mcdc": {
+          "count": 0,
+          "covered": 0,
+          "notcovered": 0,
+          "percent": 0
+        }
+      }
+    }
+  ]
+}

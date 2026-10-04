@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "instrument": "SYNTH",
+  "tick_size": 0.01,
+  "generator_version": "hand-authored-v1",
+  "seed": 0,
+  "profile": "fixture",
+  "max_live_orders": 9,
+  "setup_events": 0,
+  "measured_events": 9,
+  "total_events": 9,
+  "sha256": "965a60cbf8d006ddcd107d101750c1a20143580e302b256232bbae32065d1521"
+}

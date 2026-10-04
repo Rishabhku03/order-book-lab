@@ -1,0 +1,17 @@
+[
+  {
+    "id": "balanced",
+    "label": "Balanced flow",
+    "file": "data/balanced.json"
+  },
+  {
+    "id": "cancellation",
+    "label": "Cancellation-heavy flow",
+    "file": "data/cancellation.json"
+  },
+  {
+    "id": "lifecycle",
+    "label": "Order lifecycle and edge cases",
+    "file": "data/lifecycle.json"
+  }
+]

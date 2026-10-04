@@ -1,0 +1,346 @@
+{
+  "complete": true,
+  "audit_date": "2026-10-03",
+  "scope": "Completed local plan audit; external release gates remain pending.",
+  "native_binary_sha256": "e1e933691c89f77a2d9b26eff2a5b83f20c74b900eb13c9ec74559be553e4c51",
+  "current_binary_independent_checks_match": true,
+  "requirement_matrix_table_rows_including_headers": 179,
+  "correctness": {
+    "source_sha256": "de6d35fad5f4b0c3b5eaec613eb371e2ab1fc8a74775fa32d0f6e04584e6d9bb",
+    "binary_sha256": "e1e933691c89f77a2d9b26eff2a5b83f20c74b900eb13c9ec74559be553e4c51",
+    "preset": "release",
+    "complete": true,
+    "seeds": 100,
+    "measured_events_per_seed": 2000,
+    "setup_events_per_seed": 100,
+    "variants": [
+      "tree",
+      "hash",
+      "hash_reserved"
+    ],
+    "comparisons_including_setup": 630000,
+    "measured_comparisons_per_variant": 200000,
+    "tolerance": {
+      "relative": 1e-12,
+      "absolute": 1e-10
+    }
+  },
+  "manual_contract": {
+    "complete": true,
+    "cases": 49,
+    "native_checks": 147,
+    "variants": [
+      "tree",
+      "hash",
+      "hash_reserved"
+    ]
+  },
+  "manual_workflow": {
+    "complete": true,
+    "checks": [
+      {
+        "inspect_sequence": 1,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 3,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 4,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 5,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 6,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 7,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 8,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 9,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 10,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 11,
+        "passed": true
+      },
+      {
+        "inspect_sequence": 12,
+        "passed": true
+      },
+      {
+        "trace_frames": 11
+      },
+      {
+        "optional_trace_absent": true
+      },
+      {
+        "range_sequences": [
+          5,
+          6
+        ],
+        "preceding_state_preserved": true
+      },
+      {
+        "existing_output_rejected": true
+      },
+      {
+        "ordering_beyond_target_rejected": true
+      }
+    ]
+  },
+  "coverage": {
+    "lines": 321,
+    "covered_lines": 312,
+    "line_percent": 97.19626168224299,
+    "branches": 239,
+    "covered_branches": 219,
+    "branch_percent": 91.63179916317992,
+    "scope": [
+      "book.hpp (including analytics)",
+      "parser.hpp",
+      "types.hpp"
+    ],
+    "files": [
+      {
+        "file": "book.hpp",
+        "summary": {
+          "lines": {
+            "count": 222,
+            "covered": 221,
+            "percent": 99.54954954954955
+          },
+          "functions": {
+            "count": 16,
+            "covered": 16,
+            "percent": 100
+          },
+          "instantiations": {
+            "count": 40,
+            "covered": 40,
+            "percent": 100
+          },
+          "regions": {
+            "count": 214,
+            "covered": 213,
+            "notcovered": 1,
+            "percent": 99.53271028037383
+          },
+          "branches": {
+            "count": 172,
+            "covered": 158,
+            "notcovered": 14,
+            "percent": 91.86046511627907
+          },
+          "mcdc": {
+            "count": 0,
+            "covered": 0,
+            "notcovered": 0,
+            "percent": 0
+          }
+        }
+      },
+      {
+        "file": "parser.hpp",
+        "summary": {
+          "lines": {
+            "count": 90,
+            "covered": 87,
+            "percent": 96.66666666666667
+          },
+          "functions": {
+            "count": 4,
+            "covered": 4,
+            "percent": 100
+          },
+          "instantiations": {
+            "count": 8,
+            "covered": 8,
+            "percent": 100
+          },
+          "regions": {
+            "count": 96,
+            "covered": 93,
+            "notcovered": 3,
+            "percent": 96.875
+          },
+          "branches": {
+            "count": 67,
+            "covered": 61,
+            "notcovered": 6,
+            "percent": 91.04477611940298
+          },
+          "mcdc": {
+            "count": 0,
+            "covered": 0,
+            "notcovered": 0,
+            "percent": 0
+          }
+        }
+      },
+      {
+        "file": "types.hpp",
+        "summary": {
+          "lines": {
+            "count": 9,
+            "covered": 4,
+            "percent": 44.44444444444444
+          },
+          "functions": {
+            "count": 5,
+            "covered": 4,
+            "percent": 80
+          },
+          "instantiations": {
+            "count": 5,
+            "covered": 4,
+            "percent": 80
+          },
+          "regions": {
+            "count": 5,
+            "covered": 4,
+            "notcovered": 1,
+            "percent": 80
+          },
+          "branches": {
+            "count": 0,
+            "covered": 0,
+            "notcovered": 0,
+            "percent": 0
+          },
+          "mcdc": {
+            "count": 0,
+            "covered": 0,
+            "notcovered": 0,
+            "percent": 0
+          }
+        }
+      }
+    ]
+  },
+  "fuzz_runs": [
+    {
+      "target": "parser",
+      "exit_code": 0,
+      "elapsed_seconds": 903.9950188999937,
+      "budget_seconds": 900,
+      "executions": 88798800
+    },
+    {
+      "target": "state",
+      "exit_code": 0,
+      "elapsed_seconds": 901.251025000005,
+      "budget_seconds": 900,
+      "executions": 333664
+    }
+  ],
+  "current_fuzz_target_and_binary_fingerprints_match": true,
+  "workload_audit": {
+    "regenerated_workloads": 27,
+    "variants": 3,
+    "summary_groups_recomputed": 369,
+    "paired_comparisons_recomputed": 56,
+    "all_input_manifests_checkpoints_and_final_states_match": true,
+    "schema": {
+      "complete": true,
+      "groups": 369,
+      "raw_runs": 2583,
+      "repetitions": 7,
+      "latency_artifacts": 63,
+      "samples_recomputed": true
+    },
+    "measured_source_archive_verified": true,
+    "archived_measured_binary_verified": true,
+    "report_regeneration_preserves_reviewed_writeup": true
+  },
+  "current_binary_smoke": {
+    "complete": true,
+    "groups": 25,
+    "raw_runs": 50,
+    "repetitions": 2,
+    "latency_artifacts": 6,
+    "samples_recomputed": true
+  },
+  "visual": {
+    "screenshots_reviewed": 22,
+    "viewports": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "palette": "black and white; series distinguished by line pattern",
+    "console_or_page_errors": [],
+    "final_mobile_expanded_evidence_reviewed": true
+  },
+  "reproduction": {
+    "complete": true,
+    "method": "fresh source copy without build cache or Git metadata",
+    "checks": [
+      "native release build",
+      "C++ tests",
+      "Python integration tests",
+      "demo regeneration"
+    ],
+    "identical_files_or_json_values": [
+      "balanced.csv",
+      "balanced.manifest.json",
+      "balanced.json",
+      "cancellation.csv",
+      "cancellation.manifest.json",
+      "cancellation.json",
+      "lifecycle.csv",
+      "lifecycle.manifest.json",
+      "lifecycle.json"
+    ],
+    "elapsed_seconds": 67.17881750001106
+  },
+  "performance_scope": "Full benchmark figures remain historical October 1 observations tied to archived source and executable. Current-binary smoke validates the harness; final committed-release full timings will be refreshed later.",
+  "remaining_release_gates": [
+    "Git release identity and commit pending",
+    "Reproduction from a committed clean checkout",
+    "Actual Windows/Linux GitHub Actions execution",
+    "Final committed-release full benchmark refresh",
+    "GitHub Pages publication and hosted visual verification"
+  ],
+  "precommit_review": {
+    "date": "2026-10-04",
+    "source_sha256": "a954a7a60381c3cf14f663556e90564dbf2aa99e9c87e985f6466a370a58d366",
+    "binary_sha256": "b8a04d967c66ffe25f4cdb20a9a688bce67b2d2748e5dbbc6df8d82e7d80cba8",
+    "complete_local_verification": true,
+    "fresh_fuzz_seconds_per_target": 900,
+    "independent_state_comparisons": 630000,
+    "contract_fixtures": 49,
+    "contract_checks": 147,
+    "historical_workloads_regenerated": 27,
+    "historical_latency_samples_recomputed": 63000000,
+    "staged_files_byte_identical_after_git_checkout": true,
+    "project_license_included": false,
+    "github_repository": "https://github.com/Rishabhku03/order-book-lab",
+    "pending": [
+      "User approval of commit message",
+      "Git commit and push",
+      "Remote CI",
+      "GitHub Pages deployment",
+      "Committed checkout reproduction and release measurements"
+    ]
+  }
+}

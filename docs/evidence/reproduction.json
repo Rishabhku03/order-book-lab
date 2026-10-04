@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "method": "fresh source copy without build cache or Git metadata",
+  "checks": [
+    "native release build",
+    "C++ tests",
+    "Python integration tests",
+    "demo regeneration"
+  ],
+  "identical_files_or_json_values": [
+    "balanced.csv",
+    "balanced.manifest.json",
+    "balanced.json",
+    "cancellation.csv",
+    "cancellation.manifest.json",
+    "cancellation.json",
+    "lifecycle.csv",
+    "lifecycle.manifest.json",
+    "lifecycle.json"
+  ],
+  "elapsed_seconds": 56.70399960002396
+}
